@@ -20,10 +20,20 @@
         100% { stroke-dashoffset: 0; }
       }
 
+      @keyframes nodeBeacon1 { 0%, 100% { transform: scale(1); } 20% { transform: scale(1.4); filter: drop-shadow(0 0 4px #FF6A1F); } }
+      @keyframes nodeBeacon2 { 0%, 100% { transform: scale(1); } 40% { transform: scale(1.4); filter: drop-shadow(0 0 4px #FF6A1F); } }
+      @keyframes nodeBeacon3 { 0%, 100% { transform: scale(1); } 60% { transform: scale(1.4); filter: drop-shadow(0 0 4px #FF6A1F); } }
+      @keyframes nodeBeacon4 { 0%, 100% { transform: scale(1); } 80% { transform: scale(1.4); filter: drop-shadow(0 0 4px #FF6A1F); } }
+
       .pp-anim-line {
         stroke-dasharray: 200 600;
-        animation: ppDraw 7s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+        animation: ppDraw 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
       }
+
+      .beacon-1 { animation: nodeBeacon1 5s ease-in-out infinite; transform-origin: 60px 85px; }
+      .beacon-2 { animation: nodeBeacon2 5s ease-in-out infinite; transform-origin: 330px 85px; }
+      .beacon-3 { animation: nodeBeacon3 5s ease-in-out infinite; transform-origin: 465px 85px; }
+      .beacon-4 { animation: nodeBeacon4 5s ease-in-out infinite; transform-origin: 735px 85px; }
     </style>
   </defs>
 
@@ -39,11 +49,11 @@
 
   <!-- Track Line -->
   <line x1="45" y1="85" x2="875" y2="85" stroke="#1E1E1E" stroke-width="2"/>
-  <line x1="45" y1="85" x2="875" y2="85" stroke="url(#pp-thread)" stroke-width="2" class="pp-anim-line" stroke-linecap="round"/>
+  <line x1="45" y1="85" x2="875" y2="85" stroke="url(#pp-thread)" stroke-width="2.5" class="pp-anim-line" stroke-linecap="round"/>
 
   <!-- Step 1: IDEA -->
   <g transform="translate(60, 85)">
-    <circle cx="0" cy="0" r="4.5" fill="#0A0A0A" stroke="#444444" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="4.5" fill="#0A0A0A" stroke="#444444" stroke-width="1.5" class="beacon-1"/>
     <text x="0" y="-14" text-anchor="middle" fill="#666666" font-size="9" class="font-mono">01</text>
     <text x="0" y="22" text-anchor="middle" fill="#E5E5E5" font-size="10" font-weight="600" class="font-sans">IDEA</text>
     <text x="0" y="36" text-anchor="middle" fill="#666666" font-size="8.5" class="font-mono">Problem</text>
@@ -59,7 +69,7 @@
 
   <!-- Step 3: PROTOTYPE -->
   <g transform="translate(330, 85)">
-    <circle cx="0" cy="0" r="4.5" fill="#0A0A0A" stroke="#FF6A1F" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="4.5" fill="#0A0A0A" stroke="#FF6A1F" stroke-width="1.5" class="beacon-2"/>
     <circle cx="0" cy="0" r="1.5" fill="#FF6A1F"/>
     <text x="0" y="-14" text-anchor="middle" fill="#FF6A1F" font-size="9" class="font-mono">03</text>
     <text x="0" y="22" text-anchor="middle" fill="#F5F5F0" font-size="10" font-weight="600" class="font-sans">PROTOTYPE</text>
@@ -68,7 +78,7 @@
 
   <!-- Step 4: BUILD -->
   <g transform="translate(465, 85)">
-    <circle cx="0" cy="0" r="5.5" fill="#0A0A0A" stroke="#FF6A1F" stroke-width="2"/>
+    <circle cx="0" cy="0" r="5.5" fill="#0A0A0A" stroke="#FF6A1F" stroke-width="2" class="beacon-3"/>
     <circle cx="0" cy="0" r="2" fill="#FF6A1F"/>
     <text x="0" y="-14" text-anchor="middle" fill="#FF6A1F" font-size="9" font-weight="700" class="font-mono">04</text>
     <text x="0" y="22" text-anchor="middle" fill="#FFA066" font-size="10.5" font-weight="700" class="font-sans">BUILD</text>
@@ -85,7 +95,7 @@
 
   <!-- Step 6: SHIP -->
   <g transform="translate(735, 85)">
-    <circle cx="0" cy="0" r="5" fill="#0A0A0A" stroke="#FF6A1F" stroke-width="2"/>
+    <circle cx="0" cy="0" r="5" fill="#0A0A0A" stroke="#FF6A1F" stroke-width="2" class="beacon-4"/>
     <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
     <text x="0" y="-14" text-anchor="middle" fill="#FF6A1F" font-size="9" class="font-mono">06</text>
     <text x="0" y="22" text-anchor="middle" fill="#F5F5F0" font-size="10.5" font-weight="700" class="font-sans">SHIP</text>

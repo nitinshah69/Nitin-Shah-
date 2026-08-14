@@ -7,13 +7,31 @@
 
     <linearGradient id="scan-grad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#FF6A1F" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FF6A1F" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#FF6A1F" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#FF6A1F" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FF6A1F" stop-opacity="0.9"/>
     </linearGradient>
 
     <style>
       .font-mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
       .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+
+      @keyframes scanVertical {
+        0%, 100% { transform: translateY(0px); opacity: 0.8; }
+        50% { transform: translateY(65px); opacity: 1; }
+      }
+
+      @keyframes scorePulse {
+        0%, 100% { filter: drop-shadow(0 0 2px rgba(255, 106, 31, 0.4)); }
+        50% { filter: drop-shadow(0 0 8px rgba(255, 106, 31, 0.9)); }
+      }
+
+      .laser-scanner {
+        animation: scanVertical 3.5s ease-in-out infinite;
+      }
+
+      .score-glow {
+        animation: scorePulse 3s ease-in-out infinite;
+      }
     </style>
   </defs>
 
@@ -23,7 +41,7 @@
 
   <!-- Top Metadata Bar -->
   <g transform="translate(30, 32)">
-    <circle cx="6" cy="0" r="3" fill="#FF6A1F"/>
+    <circle cx="6" cy="0" r="3.5" fill="#FF6A1F"/>
     <text x="18" y="4" fill="#A1A1A1" font-size="10" font-weight="700" letter-spacing="1.5" class="font-mono">PROJECT.02 // GENAI APPLICATION</text>
     <text x="640" y="4" text-anchor="end" fill="#666666" font-size="9.5" class="font-mono">INTELLIGENCE PLATFORM</text>
   </g>
@@ -63,7 +81,6 @@
 
   <!-- Right Visual Card: Document Scanning & AI Vector Metaphor -->
   <g transform="translate(410, 70)">
-    <!-- Document Mockup -->
     <rect width="250" height="195" rx="8" fill="#121212" stroke="#262626"/>
     
     <!-- Abstract Text Lines -->
@@ -71,15 +88,20 @@
     <line x1="25" y1="52" x2="220" y2="52" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
     <line x1="25" y1="64" x2="190" y2="64" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
     <line x1="25" y1="76" x2="210" y2="76" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+    <line x1="25" y1="88" x2="170" y2="88" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
 
-    <!-- Scanning Line Effect -->
-    <rect x="15" y="90" width="220" height="40" fill="url(#scan-grad)" opacity="0.3"/>
-    <line x1="15" y1="130" x2="235" y2="130" stroke="#FF6A1F" stroke-width="2"/>
-    <circle cx="235" cy="130" r="3" fill="#FF6A1F"/>
+    <!-- Animated Scanning Laser Effect -->
+    <g class="laser-scanner">
+      <rect x="15" y="40" width="220" height="25" fill="url(#scan-grad)" opacity="0.4"/>
+      <line x1="15" y1="65" x2="235" y2="65" stroke="#FF6A1F" stroke-width="2"/>
+      <circle cx="235" cy="65" r="3" fill="#FF6A1F"/>
+    </g>
 
     <!-- Output AI Match Analysis Badge -->
-    <rect x="25" y="145" width="200" height="35" rx="5" fill="#1A1A1A" stroke="#333333"/>
-    <text x="40" y="166" fill="#F5F5F0" font-size="11" font-weight="600" class="font-sans">ATS Score Index: </text>
-    <text x="145" y="166" fill="#FF6A1F" font-size="12" font-weight="700" class="font-mono">92 / 100</text>
+    <g class="score-glow">
+      <rect x="25" y="145" width="200" height="35" rx="5" fill="#1A1A1A" stroke="#FF6A1F" stroke-width="1.2"/>
+      <text x="40" y="166" fill="#F5F5F0" font-size="11" font-weight="600" class="font-sans">ATS Score Index: </text>
+      <text x="145" y="166" fill="#FF6A1F" font-size="12" font-weight="700" class="font-mono">92 / 100</text>
+    </g>
   </g>
 </svg>
