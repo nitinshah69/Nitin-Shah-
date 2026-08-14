@@ -1,15 +1,29 @@
 <div align="center">
-  <!-- Signature Hero: Animated Intelligent Orange Thread -->
+  <!-- 01 HERO: Signature Animated Intelligent Orange Thread -->
   <a href="https://github.com/nitinshah69">
-    <img src="./assets/hero.svg" alt="Nitin Shah — AI & Full-Stack Systems Engineer" width="100%" />
+    <img src="./assets/hero-v2.svg" alt="Nitin Shah — AI & Full-Stack Systems Engineer" width="100%" />
   </a>
+
+  <!-- 02 STATUS BAR: Pulse Indicator & Timezone -->
+  <img src="./assets/status-bar.svg" alt="Developer Status Bar" width="100%" />
 </div>
 
 <br/>
 
-## 🧭 About & Positioning
+## 🧭 03 / NOW · 2026 Command Center
 
-I am an **AI-focused Full-Stack Software Engineer** dedicated to building high-performance web applications, intelligent agentic workflows, and resilient cloud architectures.
+```ini
+[● BUILDING]   : Production AI Tooling & Scalable Next.js 14 Micro-Architectures
+[● LEARNING]   : Agentic Workflows, LangGraph & Structured LLM Tool-Calling
+[● EXPLORING]  : Production AI Observability & Low-Latency Edge Inference
+[● 2026 TARGET]: Senior Full-Stack & AI Systems Engineering
+```
+
+---
+
+## 🏛️ 04 / About & Positioning
+
+I am an **AI-focused Full-Stack Software Engineer** dedicated to building resilient web platforms, autonomous agentic workflows, and high-throughput systems.
 
 ```text
 Focus:   Modern Frontend Architecture · GenAI Engineering · High-Throughput Systems
@@ -18,91 +32,77 @@ Mission: Bridging scalable full-stack web platforms with pragmatic machine intel
 
 ---
 
-## ⚡ Currently Building
-
-```ini
-[● ACTIVE] 01 — GenAI Applications & RAG Pipelines
-[● ACTIVE] 02 — Production-Grade Web Systems (Next.js 14 / TypeScript)
-[● ACTIVE] 03 — Agentic Workflows & Tool-Calling Systems
-[● ACTIVE] 04 — E-Commerce & Telemetry Dashboards
-[● ACTIVE] 05 — Distributed State & Real-Time Sync Engines
-```
-
----
-
-## 🔮 System Core
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="55%" valign="middle">
-        <h3>Architecture &amp; Philosophy</h3>
-        <p>Software is built on three immutable pillars: <b>clean code</b>, <b>intelligent systems</b>, and <b>reliable shipping</b>.</p>
-        <ul>
-          <li><b>Precision Engineering:</b> Type-safe, modular, and maintainable systems.</li>
-          <li><b>Applied Intelligence:</b> Practical GenAI integrations solving concrete user bottlenecks.</li>
-          <li><b>Continuous Delivery:</b> Sub-second latency, CI/CD automation, and rigorous testing.</li>
-        </ul>
-      </td>
-      <td width="45%" align="center" valign="middle">
-        <img src="./assets/3d-core.svg" alt="Minimal 3D Core: Code / AI / Ship" width="100%" />
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-## 🛠️ Technology Constellation
+## 💡 05 / What I Build
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h4>Languages</h4>
-      <ul>
-        <li><code>TypeScript</code></li>
-        <li><code>JavaScript (ES2024)</code></li>
-        <li><code>Python</code></li>
-        <li><code>SQL</code></li>
-      </ul>
-      <h4>Frontend</h4>
-      <ul>
-        <li><code>React.js</code></li>
-        <li><code>Next.js 14 (App Router)</code></li>
-        <li><code>Tailwind CSS</code></li>
-        <li><code>HTML5 / CSS3</code></li>
-      </ul>
+      <h4>🤖 Intelligent Products</h4>
+      <p>AI-native web applications embedding LLM inference, vector retrieval (RAG), and agentic workflows to automate high-friction tasks.</p>
+      <code>Next.js</code> · <code>FastAPI</code> · <code>OpenAI</code>
     </td>
     <td width="33%" valign="top">
-      <h4>Backend &amp; API</h4>
+      <h4>⚡ Full-Stack Systems</h4>
+      <p>High-concurrency web platforms with optimized relational schemas, microsecond state synchronizations, and robust RBAC permissions.</p>
+      <code>TypeScript</code> · <code>Node</code> · <code>Postgres</code>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🎨 Interactive Experiences</h4>
+      <p>Ultra-responsive, accessible user interfaces built with micro-interactions, optimistic updates, and modern design precision.</p>
+      <code>React</code> · <code>Tailwind</code> · <code>Motion</code>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠️ 06 / Current Stack & Architectural Layers
+
+<table>
+  <tr>
+    <td width="20%" valign="top">
+      <h4>Layer 01<br/>Interface</h4>
+      <ul>
+        <li><code>React.js</code></li>
+        <li><code>Next.js 14</code></li>
+        <li><code>TypeScript</code></li>
+        <li><code>Tailwind CSS</code></li>
+      </ul>
+    </td>
+    <td width="20%" valign="top">
+      <h4>Layer 02<br/>Application</h4>
       <ul>
         <li><code>Node.js</code></li>
         <li><code>Express.js</code></li>
         <li><code>FastAPI</code></li>
-        <li><code>PHP / RESTful APIs</code></li>
-      </ul>
-      <h4>AI / GenAI</h4>
-      <ul>
-        <li><code>LLM Integration &amp; APIs</code></li>
-        <li><code>Retrieval-Augmented Gen (RAG)</code></li>
-        <li><code>Vector Embeddings</code></li>
-        <li><code>Agentic Tool Execution</code></li>
+        <li><code>Python</code></li>
       </ul>
     </td>
-    <td width="33%" valign="top">
-      <h4>Database &amp; Storage</h4>
+    <td width="20%" valign="top">
+      <h4>Layer 03<br/>Persistence</h4>
       <ul>
         <li><code>PostgreSQL</code></li>
-        <li><code>Firebase / Firestore</code></li>
+        <li><code>Firestore</code></li>
         <li><code>MySQL</code></li>
         <li><code>MongoDB</code></li>
       </ul>
-      <h4>Infrastructure &amp; Tooling</h4>
+    </td>
+    <td width="20%" valign="top">
+      <h4>Layer 04<br/>Intelligence</h4>
       <ul>
-        <li><code>Ubuntu Linux / Shell</code></li>
-        <li><code>Git &amp; GitHub Actions</code></li>
+        <li><code>LLM APIs</code></li>
+        <li><code>RAG Systems</code></li>
+        <li><code>Embeddings</code></li>
+        <li><code>LangGraph</code></li>
+      </ul>
+    </td>
+    <td width="20%" valign="top">
+      <h4>Layer 05<br/>Infra</h4>
+      <ul>
+        <li><code>Ubuntu Linux</code></li>
         <li><code>Docker</code></li>
-        <li><code>Vercel &amp; Cloud Deployment</code></li>
+        <li><code>GitHub CI/CD</code></li>
+        <li><code>Vercel</code></li>
       </ul>
     </td>
   </tr>
@@ -110,26 +110,50 @@ Mission: Bridging scalable full-stack web platforms with pragmatic machine intel
 
 ---
 
-## 🔄 Engineering Workflow // How I Build
+## 📈 07 / Skill Progress System
 
 <div align="center">
-  <img src="./assets/workflow.svg" alt="Engineering Execution Pipeline" width="100%" />
+  <!-- Horizontal Journey Progress Lines -->
+  <img src="./assets/skills-progress.svg" alt="Skill Horizontal Journeys" width="100%" />
 </div>
 
 ---
 
-## 🚀 Featured Deployments
+## 🌌 08 / Architectural Dependency Constellation
+
+<div align="center">
+  <!-- Architecture Constellation -->
+  <img src="./assets/skill-constellation.svg" alt="Skill Constellation Network" width="100%" />
+</div>
+
+---
+
+## 🗺️ 09 / My 2026 Learning Path
+
+<div align="center">
+  <!-- Learning Horizon -->
+  <img src="./assets/learning-path.svg" alt="Learning Roadmap 2026" width="100%" />
+</div>
+
+---
+
+## 🚀 10 / Featured Project Showcases
 
 ### 01 / AambaaLabs E-Commerce Infrastructure
 <div align="center">
   <img src="./assets/projects/project-01.svg" alt="AambaaLabs E-Commerce Engine" width="100%" />
 </div>
 
-- **Problem:** Client required an enterprise store administration platform capable of multi-channel inventory sync and automated billing.
-- **My Role:** Lead Full-Stack Engineer (Architecture, Database Schema, UI/UX, Firebase Telemetry).
-- **Tech Stack:** `Next.js 14` · `React` · `Tailwind CSS` · `Firebase Firestore` · `Cloud Functions`
-- **Technical Challenge:** Minimizing data latency on live inventory updates with sub-120ms optimistic UI synchronizations.
-- **Links:** [Live Deployment ↗](https://github.com/nitinshah69) &nbsp;|&nbsp; [Repository ↗](https://github.com/nitinshah69/aambaalabs-dashboard)
+```text
+Maturity:  [ PRODUCTION ────────────● ]
+Radar:     Frontend: 95% | Backend: 90% | Database: 85% | Infra: 80%
+```
+
+- **Problem Solved:** Enterprise client needed unified store management, live multi-channel inventory synchronization, and automated billing.
+- **My Role:** Lead Full-Stack Solutions Engineer.
+- **Tech Stack:** `Next.js 14` · `React 18` · `Tailwind CSS` · `Firebase Firestore` · `Cloud Functions`
+- **Technical Highlight:** Reduced inventory update latency below 120ms utilizing optimistic mutations and Firestore real-time snapshot listeners.
+- **Links:** [Live Deployment ↗](https://github.com/nitinshah69) &nbsp;|&nbsp; [Source Code ↗](https://github.com/nitinshah69/aambaalabs-dashboard)
 
 ---
 
@@ -138,11 +162,16 @@ Mission: Bridging scalable full-stack web platforms with pragmatic machine intel
   <img src="./assets/projects/project-02.svg" alt="AI Resume Intelligence Platform" width="100%" />
 </div>
 
-- **Problem:** Job seekers struggle to evaluate resume alignment against algorithmic ATS systems and nuanced job descriptions.
+```text
+Maturity:  [ MVP ──────────● ]
+Radar:     AI / LLM: 92% | Frontend: 90% | Backend: 85% | Database: 75%
+```
+
+- **Problem Solved:** Job applicants lack transparent feedback on ATS alignment, semantic keyword gaps, and industry role fit.
 - **My Role:** Creator & Full-Stack AI Engineer.
 - **Tech Stack:** `Next.js` · `FastAPI` · `Python` · `OpenAI API` · `PostgreSQL`
-- **Technical Challenge:** Structuring vector embeddings and prompt engineering pipelines for reliable, low-hallucination keyword gap extraction.
-- **Links:** [Live Demo ↗](https://github.com/nitinshah69) &nbsp;|&nbsp; [Repository ↗](https://github.com/nitinshah69)
+- **Technical Highlight:** Designed semantic vector embedding pipeline for multi-dimension resume-to-job matching with low-hallucination structured JSON outputs.
+- **Links:** [Live Demo ↗](https://github.com/nitinshah69) &nbsp;|&nbsp; [Source Code ↗](https://github.com/nitinshah69)
 
 ---
 
@@ -151,11 +180,16 @@ Mission: Bridging scalable full-stack web platforms with pragmatic machine intel
   <img src="./assets/projects/project-03.svg" alt="Enterprise Cloud Workflow Hub" width="100%" />
 </div>
 
-- **Problem:** Eliminating disparate manual paper trails and fragmented operational tracking in institutional workflows.
-- **My Role:** Architecture & Full-Stack Development.
-- **Tech Stack:** `React.js` · `PHP Backend` · `MySQL` · `Tailwind CSS` · `JWT Auth`
-- **Technical Challenge:** Designing complex relational data schemas with granular role-based access control (RBAC) and audited activity logs.
-- **Links:** [Live Demo ↗](https://github.com/nitinshah69) &nbsp;|&nbsp; [Repository ↗](https://github.com/nitinshah69/capstone-project)
+```text
+Maturity:  [ PRODUCTION ────────────● ]
+Radar:     Backend: 92% | Database: 90% | Frontend: 88% | Infra: 75%
+```
+
+- **Problem Solved:** Streamlined multi-department institutional operations by replacing manual administrative workflows with audited digital processes.
+- **My Role:** Lead Full-Stack Developer.
+- **Tech Stack:** `React.js` · `PHP Backend` · `MySQL` · `Tailwind CSS` · `JWT Authentication`
+- **Technical Highlight:** Built scalable relational schemas with strict role-based access control (RBAC), resulting in a 65% reduction in manual turnaround time.
+- **Links:** [Live Demo ↗](https://github.com/nitinshah69) &nbsp;|&nbsp; [Source Code ↗](https://github.com/nitinshah69/capstone-project)
 
 ---
 
@@ -164,23 +198,29 @@ Mission: Bridging scalable full-stack web platforms with pragmatic machine intel
   <img src="./assets/projects/project-04.svg" alt="RECKON 7.0 Hackathon Sprint Build" width="100%" />
 </div>
 
-- **Problem:** Building an ultra-responsive, collaborative web experience within a strict 24-hour sprint window.
+```text
+Maturity:  [ MVP ──────────● ]
+Radar:     Frontend: 94% | Database: 82% | Backend: 80% | Infra: 70%
+```
+
+- **Problem Solved:** Built a collaborative real-time digital application under a high-pressure 24-hour sprint.
 - **My Role:** Core Frontend & Realtime State Lead.
 - **Tech Stack:** `Next.js` · `TypeScript` · `Tailwind CSS` · `Firebase Realtime DB`
-- **Technical Challenge:** Managing high-velocity concurrent state updates without UI jitter under tight hackathon time constraints.
-- **Links:** [Live Demo ↗](https://github.com/nitinshah69) &nbsp;|&nbsp; [Repository ↗](https://github.com/nitinshah69/reckon-hackathon)
+- **Technical Highlight:** Architected collision-free multi-client state management for concurrent collaborative sessions.
+- **Links:** [Live Demo ↗](https://github.com/nitinshah69) &nbsp;|&nbsp; [Source Code ↗](https://github.com/nitinshah69/reckon-hackathon)
 
 ---
 
-## 📈 Technical Horizon & Roadmap
+## 🔄 11 / Project Execution Pipeline
 
 <div align="center">
-  <img src="./assets/roadmap.svg" alt="Career Roadmap and Technical Trajectory" width="100%" />
+  <!-- Stage-Gate Project Pipeline -->
+  <img src="./assets/project-pipeline.svg" alt="Project Lifecycle Pipeline" width="100%" />
 </div>
 
 ---
 
-## 📊 Proof of Work & Activity
+## 📊 12 / Activity Signal & Telemetry
 
 <div align="center">
   <!-- Minimal Monochrome Stats Card with Orange Accent -->
@@ -188,7 +228,9 @@ Mission: Bridging scalable full-stack web platforms with pragmatic machine intel
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nitinshah69&layout=compact&theme=tokyonight&bg_color=0A0A0A&title_color=FF6A1F&text_color=A1A1A1&border_color=242424&hide_border=false" width="49%" alt="Top Languages" />
 </div>
 
-<br/>
+---
+
+## 🐍 13 / Contribution Signal Visual
 
 <div align="center">
   <!-- Contribution Snake in Minimal Palette -->
@@ -197,32 +239,91 @@ Mission: Bridging scalable full-stack web platforms with pragmatic machine intel
 
 ---
 
-## 📡 Live Development Signal
+## 🌐 14 / 3D Contribution Wall
+
+<div align="center">
+  <!-- 3D Isometric Contribution Topography -->
+  <img src="./assets/3d-contribution.svg" alt="3D Contribution Topography" width="100%" />
+</div>
+
+---
+
+## 🗓️ 15 / 2026 Development Log & Timeline
 
 ```text
-● BUILDING   : Production AI tooling and scalable Next.js 14 micro-architectures
-● LEARNING   : Advanced LLM tool calling, structured JSON outputs, and LangGraph
-● EXPLORING  : Real-time agent collaboration protocols & edge compute runtimes
-● 2026 GOAL  : Ship high-impact engineering products with world-class developer UX
+Q1 2026 ─── Q2 2026 ─────────────── Q3 2026 ───────────────── Q4 2026
+  │           │                       │                         │
+  ▼           ▼                       ▼                         ▼
+[FOUNDATIONS] [FULL-STACK DEPLOY]     [GENAI & AGENTIC APPS]    [SCALE & PRODUCTION]
+CS Concepts   Next.js 14 / Firebase   FastAPI / LangGraph / RAG Scalable Cloud SaaS
 ```
 
 ---
 
-## 🤝 Connect // Let's Build
+## 🔭 16 / Currently Exploring
 
-Have an interesting engineering problem or high-impact project to collaborate on?
+- `→` Autonomous multi-agent coordination protocols (`LangGraph` / `LangChain`)
+- `→` Edge-native AI model inference & streaming JSON responses
+- `→` Vector database indexing optimizations (`Pinecone` / `pgvector`)
+- `→` Advanced motion physics and micro-interactions in modern web apps
 
-<div align="left">
+---
 
-- **LinkedIn:** [linkedin.com/in/nitinshah69 ↗](https://linkedin.com/in/nitinshah69)
-- **GitHub:** [github.com/nitinshah69 ↗](https://github.com/nitinshah69)
-- **Email:** [Reach out via Email ↗](mailto:nitinshah@example.com)
+## 📐 17 / Engineering Principles // How I Think
 
-</div>
+```ini
+[01] SOLVE THE PROBLEM FIRST
+     Understand constraints, user friction, and data flow before writing code.
 
-<br/>
+[02] KEEP SYSTEMS COMPOSABLE
+     Type-safe interfaces, decoupled services, and predictable state transitions.
+
+[03] LEVERAGE AI INTENTIONALLY
+     Apply machine intelligence where it delivers measurable leverage, not as decoration.
+
+[04] SHIP, MEASURE & ITERATE
+     Continuous delivery, real-world observability, and relentless performance tuning.
+```
+
+---
+
+## 🪐 18 / Technology Orbit
 
 <div align="center">
-  <!-- Continuous Orange Thread Footer -->
-  <img src="./assets/footer.svg" alt="Continuous Evolution" width="100%" />
+  <!-- Subtle Rotating Technology Orbit -->
+  <img src="./assets/technology-orbit.svg" alt="Technology Orbit" width="60%" />
+</div>
+
+---
+
+## 🤝 19 / Open Source & Collaboration
+
+I actively contribute to and build open-source tools across web infrastructure, AI prototypes, and full-stack utilities.
+
+- **Collaborate on GitHub:** [github.com/nitinshah69 ↗](https://github.com/nitinshah69)
+- **Report an Issue / Suggestion:** Open an issue on any active repository.
+
+---
+
+## 📬 20 / Connect & Final CTA
+
+<div align="center">
+  <p><b>Have an interesting engineering problem to solve or a high-impact product to build?</b></p>
+  
+  <a href="https://linkedin.com/in/nitinshah69">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="mailto:nitinshah@example.com">
+    <img src="https://img.shields.io/badge/Email-Get_in_Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/nitinshah69">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+
+  <br/><br/>
+
+  <!-- 37 Signature Closing: The Orange Thread Arrow -->
+  <img src="./assets/footer-thread.svg" alt="Let's Build Something Useful" width="100%" />
 </div>
