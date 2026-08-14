@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 350" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Architectural Canvas Gradient -->
+    <linearGradient id="hero-final-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F0F0F"/>
+      <stop offset="50%" stop-color="#080808"/>
+      <stop offset="100%" stop-color="#030303"/>
+    </linearGradient>
+
+    <!-- The Intelligent Orange Thread Gradient -->
+    <linearGradient id="thread-final-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6A1F" stop-opacity="0.15"/>
+      <stop offset="25%" stop-color="#FF6A1F" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#FFA066" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FF6A1F" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Fine Architectural Precision Grid -->
+    <pattern id="final-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1A1A1A" stroke-width="0.75" stroke-opacity="0.6"/>
+      <circle cx="40" cy="40" r="0.8" fill="#333333" opacity="0.7"/>
+    </pattern>
+
+    <!-- Studio Glow Filter -->
+    <filter id="final-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <style>
+      .font-mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; }
+
+      /* Timed Keyframe Animation Sequence (0.0s to 7.0s+) */
+      @keyframes threadJourney {
+        0% { stroke-dashoffset: 2000; opacity: 0; }
+        5% { opacity: 1; }
+        70% { stroke-dashoffset: 0; opacity: 1; }
+        85% { opacity: 1; }
+        100% { stroke-dashoffset: -2000; opacity: 0; }
+      }
+
+      @keyframes initialPoint {
+        0%, 10% { opacity: 0; transform: scale(0); }
+        15%, 85% { opacity: 1; transform: scale(1); }
+        95%, 100% { opacity: 0; transform: scale(0); }
+      }
+
+      @keyframes nodeReveal1 { 0%, 20% { opacity: 0.2; transform: scale(0.85); } 30%, 80% { opacity: 1; transform: scale(1.1); filter: drop-shadow(0 0 4px #FF6A1F); } 100% { opacity: 0.2; } }
+      @keyframes nodeReveal2 { 0%, 35% { opacity: 0.2; transform: scale(0.85); } 45%, 80% { opacity: 1; transform: scale(1.1); filter: drop-shadow(0 0 4px #FF6A1F); } 100% { opacity: 0.2; } }
+      @keyframes nodeReveal3 { 0%, 50% { opacity: 0.2; transform: scale(0.85); } 60%, 85% { opacity: 1; transform: scale(1.1); filter: drop-shadow(0 0 4px #FF6A1F); } 100% { opacity: 0.2; } }
+      @keyframes nodeReveal4 { 0%, 65% { opacity: 0.2; transform: scale(0.85); } 75%, 90% { opacity: 1; transform: scale(1.2); filter: drop-shadow(0 0 6px #FFA066); } 100% { opacity: 0.2; } }
+
+      @keyframes textFadeIn {
+        0%, 15% { opacity: 0; transform: translateY(4px); }
+        30%, 90% { opacity: 1; transform: translateY(0); }
+        100% { opacity: 0.8; }
+      }
+
+      @keyframes markerPulse {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.9; }
+      }
+
+      .animated-journey-thread {
+        stroke-dasharray: 280 800;
+        animation: threadJourney 8.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+
+      .start-point { animation: initialPoint 8.5s ease-in-out infinite; transform-origin: 60px 180px; }
+      .node-1 { animation: nodeReveal1 8.5s ease-in-out infinite; transform-origin: 220px 120px; }
+      .node-2 { animation: nodeReveal2 8.5s ease-in-out infinite; transform-origin: 430px 205px; }
+      .node-3 { animation: nodeReveal3 8.5s ease-in-out infinite; transform-origin: 650px 125px; }
+      .node-4 { animation: nodeReveal4 8.5s ease-in-out infinite; transform-origin: 870px 175px; }
+
+      .hero-typography { animation: textFadeIn 8.5s ease-out forwards; }
+      .tech-marker { animation: markerPulse 3.5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Architectural Base Plate -->
+  <rect width="940" height="350" rx="12" fill="url(#hero-final-bg)"/>
+  <rect width="940" height="350" rx="12" fill="url(#final-grid)"/>
+  <rect width="938" height="348" x="1" y="1" rx="11" fill="none" stroke="#222222" stroke-width="1.2"/>
+
+  <!-- Top System Bar -->
+  <g transform="translate(45, 36)">
+    <circle cx="6" cy="0" r="4" fill="#FF6A1F" filter="url(#final-glow)"/>
+    <circle cx="6" cy="0" r="1.8" fill="#FFFFFF"/>
+    <text x="20" y="4" fill="#A1A1A1" font-size="10.5" font-weight="600" letter-spacing="1.5" class="font-mono">NITIN SHAH // ARCHITECTURAL LABS</text>
+    <text x="850" y="4" text-anchor="end" fill="#555555" font-size="9.5" letter-spacing="1.2" class="font-mono">ID: 2026.FINAL.SYS</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="45" y1="56" x2="895" y2="56" stroke="#1A1A1A" stroke-width="1"/>
+
+  <!-- Structural Secondary Geometry Guide Paths -->
+  <path d="M 60 180 C 140 180, 160 230, 260 230 C 360 230, 390 140, 500 140 C 600 140, 640 210, 750 210 C 820 210, 840 175, 870 175" 
+        fill="none" stroke="#141414" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <circle cx="220" cy="120" r="28" fill="none" stroke="#161616" stroke-width="1" stroke-dasharray="2 2"/>
+  <circle cx="650" cy="125" r="28" fill="none" stroke="#161616" stroke-width="1" stroke-dasharray="2 2"/>
+
+  <!-- Main Background Thread Track -->
+  <path d="M 60 180 C 140 180, 160 120, 220 120 C 310 120, 340 205, 430 205 C 530 205, 560 125, 650 125 C 740 125, 780 175, 870 175" 
+        fill="none" stroke="#1A1A1A" stroke-width="2"/>
+
+  <!-- The Animated Intelligent Orange Thread -->
+  <path d="M 60 180 C 140 180, 160 120, 220 120 C 310 120, 340 205, 430 205 C 530 205, 560 125, 650 125 C 740 125, 780 175, 870 175" 
+        fill="none" stroke="url(#thread-final-grad)" stroke-width="2.5" stroke-linecap="round" class="animated-journey-thread" filter="url(#final-glow)"/>
+
+  <!-- Node 01: START / BUILD (60, 180) -->
+  <g transform="translate(60, 180)" class="start-point">
+    <circle cx="0" cy="0" r="5" fill="#0A0A0A" stroke="#FF6A1F" stroke-width="2"/>
+    <circle cx="0" cy="0" r="2" fill="#FF6A1F"/>
+    <text x="0" y="-14" text-anchor="middle" fill="#A1A1A1" font-size="9" font-weight="700" letter-spacing="1.2" class="font-mono">01 START</text>
+  </g>
+
+  <!-- Node 02: EXPLORE / AI (220, 120) -->
+  <g transform="translate(220, 120)" class="node-1">
+    <circle cx="0" cy="0" r="5" fill="#0A0A0A" stroke="#FF6A1F" stroke-width="2"/>
+    <circle cx="0" cy="0" r="2" fill="#FF6A1F"/>
+    <text x="0" y="-14" text-anchor="middle" fill="#A1A1A1" font-size="9" font-weight="700" letter-spacing="1.2" class="font-mono">02 EXPLORE</text>
+  </g>
+
+  <!-- Node 03: BUILD / WEB (430, 205) -->
+  <g transform="translate(430, 205)" class="node-2">
+    <circle cx="0" cy="0" r="5" fill="#0A0A0A" stroke="#FF6A1F" stroke-width="2"/>
+    <circle cx="0" cy="0" r="2" fill="#FF6A1F"/>
+    <text x="0" y="22" text-anchor="middle" fill="#A1A1A1" font-size="9" font-weight="700" letter-spacing="1.2" class="font-mono">03 BUILD</text>
+  </g>
+
+  <!-- Node 04: LEARN / SYSTEMS (650, 125) -->
+  <g transform="translate(650, 125)" class="node-3">
+    <circle cx="0" cy="0" r="5" fill="#0A0A0A" stroke="#FF6A1F" stroke-width="2"/>
+    <circle cx="0" cy="0" r="2" fill="#FF6A1F"/>
+    <text x="0" y="-14" text-anchor="middle" fill="#A1A1A1" font-size="9" font-weight="700" letter-spacing="1.2" class="font-mono">04 LEARN</text>
+  </g>
+
+  <!-- Node 05: SHIP & EVOLVE (870, 175) -->
+  <g transform="translate(870, 175)" class="node-4">
+    <circle cx="0" cy="0" r="6" fill="#0A0A0A" stroke="#FF6A1F" stroke-width="2" filter="url(#final-glow)"/>
+    <circle cx="0" cy="0" r="2.5" fill="#FFFFFF"/>
+    <text x="0" y="-16" text-anchor="middle" fill="#F5F5F0" font-size="9" font-weight="700" letter-spacing="1.2" class="font-mono">05 EVOLVE</text>
+  </g>
+
+  <!-- Primary Identity & Positioning -->
+  <g transform="translate(48, 260)" class="hero-typography">
+    <text x="0" y="0" fill="#F5F5F0" font-size="32" font-weight="700" letter-spacing="-0.5" class="font-sans">NITIN SHAH</text>
+    <text x="220" y="-4" fill="#FF6A1F" font-size="12.5" font-weight="700" letter-spacing="1.5" class="font-mono">/ AI &amp; FULL-STACK DEVELOPER</text>
+    
+    <text x="0" y="30" fill="#A1A1A1" font-size="13.5" font-weight="400" letter-spacing="0.2" class="font-sans">
+      Building intelligent products, modern web systems, and AI-powered production experiences.
+    </text>
+  </g>
+
+  <!-- Technical Marker -->
+  <g transform="translate(892, 308)" class="tech-marker">
+    <text x="0" y="0" text-anchor="end" fill="#555555" font-size="9.5" letter-spacing="1.2" class="font-mono">SYSTEM READY // PRECISION &amp; RESTRAINT</text>
+  </g>
+</svg>

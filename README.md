@@ -1,10 +1,10 @@
 <div align="center">
-  <!-- 01 HERO: Signature Animated Intelligent Orange Thread -->
+  <!-- 01 SIGNATURE HERO: Master Timed Sequence with The Intelligent Orange Thread -->
   <a href="https://github.com/nitinshah69">
-    <img src="./assets/hero-v2.svg" alt="Nitin Shah — AI & Full-Stack Systems Engineer" width="100%" />
+    <img src="./assets/hero-final.svg" alt="Nitin Shah — AI & Full-Stack Systems Engineer" width="100%" />
   </a>
 
-  <!-- 02 STATUS BAR: Pulse Indicator & Timezone -->
+  <!-- 02 LIVE STATUS BAR: Online Engineering Telemetry & Timezone -->
   <img src="./assets/status-bar.svg" alt="Developer Status Bar" width="100%" />
 </div>
 
@@ -13,21 +13,20 @@
 ## 🧭 03 / NOW · 2026 Command Center
 
 ```ini
-[● BUILDING]   : Production AI Tooling & Scalable Next.js 14 Micro-Architectures
+[● BUILDING]   : Production AI Applications & Scalable Next.js 14 Web Systems
 [● LEARNING]   : Agentic Workflows, LangGraph & Structured LLM Tool-Calling
-[● EXPLORING]  : Production AI Observability & Low-Latency Edge Inference
+[● EXPLORING]  : Production AI Observability & Low-Latency Edge Inference Runtimes
 [● 2026 TARGET]: Senior Full-Stack & AI Systems Engineering
 ```
 
 ---
 
-## 🏛️ 04 / About & Positioning
-
-I am an **AI-focused Full-Stack Software Engineer** dedicated to building resilient web platforms, autonomous agentic workflows, and high-throughput systems.
+## 🏛️ 04 / About & Identity
 
 ```text
-Focus:   Modern Frontend Architecture · GenAI Engineering · High-Throughput Systems
-Mission: Bridging scalable full-stack web platforms with pragmatic machine intelligence.
+WHO I AM    : AI-focused Full-Stack Software Engineer building reliable, high-performance web products.
+WHAT I BUILD: Intelligent web applications, agentic workflows, and distributed micro-frontends.
+WHERE I GO  : Engineering scalable software systems that leverage practical machine intelligence.
 ```
 
 ---
@@ -38,7 +37,7 @@ Mission: Bridging scalable full-stack web platforms with pragmatic machine intel
   <tr>
     <td width="33%" valign="top">
       <h4>🤖 Intelligent Products</h4>
-      <p>AI-native web applications embedding LLM inference, vector retrieval (RAG), and agentic workflows to automate high-friction tasks.</p>
+      <p>AI-native web applications embedding LLM inference, vector retrieval (RAG), and agentic tool-calling to automate high-friction workflows.</p>
       <code>Next.js</code> · <code>FastAPI</code> · <code>OpenAI</code>
     </td>
     <td width="33%" valign="top">
@@ -48,7 +47,7 @@ Mission: Bridging scalable full-stack web platforms with pragmatic machine intel
     </td>
     <td width="33%" valign="top">
       <h4>🎨 Interactive Experiences</h4>
-      <p>Ultra-responsive, accessible user interfaces built with micro-interactions, optimistic updates, and modern design precision.</p>
+      <p>Ultra-responsive, accessible user interfaces engineered with micro-interactions, optimistic state updates, and modern design precision.</p>
       <code>React</code> · <code>Tailwind</code> · <code>Motion</code>
     </td>
   </tr>
@@ -56,7 +55,7 @@ Mission: Bridging scalable full-stack web platforms with pragmatic machine intel
 
 ---
 
-## 🛠️ 06 / Current Stack & Architectural Layers
+## 🛠️ 06 / Current Stack & Layered Architecture
 
 <table>
   <tr>
@@ -114,7 +113,7 @@ Mission: Bridging scalable full-stack web platforms with pragmatic machine intel
 
 <div align="center">
   <!-- Horizontal Journey Progress Lines -->
-  <img src="./assets/skills-progress.svg" alt="Skill Horizontal Journeys" width="100%" />
+  <img src="./assets/skills-final.svg" alt="Skill Horizontal Journeys" width="100%" />
 </div>
 
 ---
@@ -211,7 +210,7 @@ Radar:     Frontend: 94% | Database: 82% | Backend: 80% | Infra: 70%
 
 ---
 
-## 🔄 11 / Project Execution Pipeline
+## 🔄 11 / Project Execution Pipeline // How I Build
 
 <div align="center">
   <!-- Stage-Gate Project Pipeline -->
@@ -230,16 +229,16 @@ Radar:     Frontend: 94% | Database: 82% | Backend: 80% | Infra: 70%
 
 ---
 
-## 🐍 13 / Contribution Signal Visual
+## ⚡ 13 / Annual Contribution Cadence
 
 <div align="center">
-  <!-- Contribution Snake in Minimal Palette -->
-  <img src="https://raw.githubusercontent.com/nitinshah69/nitinshah69/output/assets/github-contribution-grid-snake-dark.svg" alt="Contribution Grid Activity" onerror="this.src='https://raw.githubusercontent.com/nitinshah69/nitinshah69/output/github-contribution-grid-snake.svg';" width="100%" />
+  <!-- Animated Contribution Signal -->
+  <img src="./assets/contributions-final.svg" alt="Contribution Grid Signal" width="100%" />
 </div>
 
 ---
 
-## 🌐 14 / 3D Contribution Wall
+## 🌐 14 / 3D Contribution Topography
 
 <div align="center">
   <!-- 3D Isometric Contribution Topography -->
@@ -250,13 +249,9 @@ Radar:     Frontend: 94% | Database: 82% | Backend: 80% | Infra: 70%
 
 ## 🗓️ 15 / 2026 Development Log & Timeline
 
-```text
-Q1 2026 ─── Q2 2026 ─────────────── Q3 2026 ───────────────── Q4 2026
-  │           │                       │                         │
-  ▼           ▼                       ▼                         ▼
-[FOUNDATIONS] [FULL-STACK DEPLOY]     [GENAI & AGENTIC APPS]    [SCALE & PRODUCTION]
-CS Concepts   Next.js 14 / Firebase   FastAPI / LangGraph / RAG Scalable Cloud SaaS
-```
+<div align="center">
+  <img src="./assets/development-timeline.svg" alt="2026 Development Log Timeline" width="100%" />
+</div>
 
 ---
 
@@ -271,19 +266,9 @@ CS Concepts   Next.js 14 / Firebase   FastAPI / LangGraph / RAG Scalable Cloud S
 
 ## 📐 17 / Engineering Principles // How I Think
 
-```ini
-[01] SOLVE THE PROBLEM FIRST
-     Understand constraints, user friction, and data flow before writing code.
-
-[02] KEEP SYSTEMS COMPOSABLE
-     Type-safe interfaces, decoupled services, and predictable state transitions.
-
-[03] LEVERAGE AI INTENTIONALLY
-     Apply machine intelligence where it delivers measurable leverage, not as decoration.
-
-[04] SHIP, MEASURE & ITERATE
-     Continuous delivery, real-world observability, and relentless performance tuning.
-```
+<div align="center">
+  <img src="./assets/engineering-principles.svg" alt="Core Engineering Principles" width="100%" />
+</div>
 
 ---
 
@@ -291,7 +276,7 @@ CS Concepts   Next.js 14 / Firebase   FastAPI / LangGraph / RAG Scalable Cloud S
 
 <div align="center">
   <!-- Subtle Rotating Technology Orbit -->
-  <img src="./assets/technology-orbit.svg" alt="Technology Orbit" width="60%" />
+  <img src="./assets/technology-orbit.svg" alt="Technology Orbit" width="55%" />
 </div>
 
 ---
@@ -324,6 +309,11 @@ I actively contribute to and build open-source tools across web infrastructure, 
 
   <br/><br/>
 
-  <!-- 37 Signature Closing: The Orange Thread Arrow -->
+  <!-- Final Narrative Closing Thread: BUILD -> LEARN -> SHIP -> EVOLVE -->
+  <img src="./assets/signature-thread.svg" alt="START -> EXPLORE -> BUILD -> LEARN -> SHIP -> EVOLVE" width="100%" />
+  
+  <br/>
+
+  <!-- Final CTA Arrow -->
   <img src="./assets/footer-thread.svg" alt="Let's Build Something Useful" width="100%" />
 </div>
