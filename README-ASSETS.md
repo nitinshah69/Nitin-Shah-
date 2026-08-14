@@ -1,58 +1,63 @@
-# 🎨 Visual Assets & Design System Guide (2026 Edition)
+# 🎨 Asset Management & Configuration Guide
 
-This directory contains the bespoke visual design system for **Nitin Shah's** GitHub Profile.
-
----
-
-## 📐 Design Philosophy
-
-- **Editorial Precision**: Clean, minimalist dark palette inspired by Apple/Linear.
-- **Intelligent Thread Metaphor**: A subtle orange stroke (`#FF6A1F`) representing the continuous loop of `BUILD → LEARN → EXPERIMENT → SHIP`.
-- **Zero Generic Clutter**: No badge walls, no noisy rainbow gradients, no distracting gaming visuals.
+This guide explains how to customize and maintain the 2026 Developer Experience System.
 
 ---
 
-## 🎨 Color Palette Tokens
+## 🛠️ Central Configuration (`config/profile.json`)
 
-| Token | Hex Value | Usage |
-| :--- | :--- | :--- |
-| **Canvas Background** | `#0A0A0A` | Base surface for SVGs and dark-mode containers |
-| **Elevated Surface** | `#141414` / `#181818` | Cards, panels, and project mockups |
-| **Borders & Grids** | `#242424` | Structural lines, container outlines |
-| **Primary Text** | `#F5F5F0` | Main titles, key headings, active labels |
-| **Secondary Text** | `#A1A1A1` | Subtitles, body descriptions |
-| **Muted Text** | `#666666` | Metadata tags, coordinates, timestamps |
-| **Intelligent Accent** | `#FF6A1F` | Animated path, status indicators, active focus |
+All key personal data, project highlights, skill levels, and learning roadmaps are managed from a single source of truth:
 
----
-
-## 📁 Asset Directory Structure
-
-```text
-assets/
-├── hero.svg                 # Signature animated hero with intelligent orange thread
-├── 3d-core.svg              # Minimal isometric developer core (CODE / AI / SHIP)
-├── workflow.svg             # "How I Build" engineering execution pipeline
-├── roadmap.svg              # Career trajectory & active technical horizon
-├── footer.svg               # Continuous loop footer stroke
-│
-└── projects/
-    ├── project-01.svg       # AambaaLabs E-Commerce Infrastructure
-    ├── project-02.svg       # AI Resume Intelligence Platform
-    ├── project-03.svg       # Enterprise Cloud Workflow Hub
-    └── project-04.svg       # RECKON 7.0 Hackathon Sprint Platform
+```json
+{
+  "identity": {
+    "name": "Nitin Shah",
+    "title": "AI / FULL-STACK DEVELOPER",
+    "positioning": "Building intelligent products, modern web systems, and AI-powered experiences."
+  },
+  "currentFocus": [ ... ],
+  "technicalLayers": { ... },
+  "projects": [ ... ]
+}
 ```
 
 ---
 
-## 🛠️ Verification & Auditing
+## 📁 Asset Directory (`assets/`)
 
-Run the included verification scripts:
+| Asset File | Purpose & Motion Specs |
+| :--- | :--- |
+| `github-hero.svg` | Master 3:1 Hero Banner with the Intelligent Orange Thread and 3D industrial metallic nodes |
+| `status-bar.svg` | Real-time developer status with pulsing telemetry beacon and animated border scan |
+| `focus.svg` | Horizontal 5-module system highlighting current engineering priorities |
+| `skill-progress.svg` | Horizontal self-drawing lines mapping non-linear engineering maturity |
+| `engineering-system.svg` | Architectural software dependency constellation connecting core stack |
+| `2026-path.svg` | 2026 Engineering Horizon with traveling pulse stream |
+| `build-process.svg` | 8-Stage Stage-Gate Engineering Lifecycle Pipeline |
+| `contributions.svg` | Dark neutral GitHub contribution calendar with traveling orange signal |
+| `3d-contribution.svg` | Isometric 3D block topography in charcoal & orange |
+| `timeline.svg` | 2026 Development Log & quarterly milestones |
+| `footer-thread.svg` | Closing narrative arrow pointing to final contact links |
+| `projects/project-01.svg` | AambaaLabs E-Commerce Infrastructure (Live sparkline telemetry) |
+| `projects/project-02.svg` | AI Resume Intelligence Platform (Scanning laser beam & ATS vector score) |
+| `projects/project-03.svg` | Enterprise Cloud Workflow Hub (Relational schema & RBAC dispatcher) |
+| `projects/project-04.svg` | RECKON 7.0 Hackathon Sprint Engine (Websocket synchronization hub) |
 
-```bash
-# Verify all asset files exist
-node scripts/generate-assets.js
+---
 
-# Audit file size and performance budgets
-node scripts/optimize-assets.js
-```
+## ⚙️ Running Automated Maintenance
+
+- **Validate All Assets:**
+  ```bash
+  node scripts/generate-assets.js
+  ```
+- **Audit File Sizes & Payload Budget:**
+  ```bash
+  node scripts/optimize-assets.js
+  ```
+
+---
+
+## 🤖 GitHub Actions Workflow (`.github/workflows/update-profile.yml`)
+
+The automated cron pipeline runs on schedule to refresh repository statistics and keep telemetry synced without manual intervention.

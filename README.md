@@ -1,84 +1,37 @@
 <div align="center">
 
-  <!-- 01 SIGNATURE MODERN HERO: Clean Editorial Studio Canvas -->
+  <!-- ==================== 01 / TOP HERO BANNER ==================== -->
   <a href="https://github.com/nitinshah69">
-    <img src="./assets/hero-modern.svg" alt="Nitin Shah — AI & Full-Stack Systems Engineer" width="100%" />
+    <img src="./assets/github-hero.svg" alt="Nitin Shah — AI / Full-Stack Developer" width="100%" />
   </a>
 
-  <!-- Dynamic Animated Multi-Line Typewriter -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2800&pause=1000&color=FF6A1F&center=true&vCenter=true&width=750&lines=%E2%96%B6+Full-Stack+Software+Engineer+(Next.js+14+%7C+React+%7C+Tailwind);%E2%96%B6+Architecting+High-Performance+Cloud+%26+Web+Platforms;%E2%96%B6+E-Commerce+Infrastructure+Developer+@+AambaaLabs;%E2%96%B6+RECKON+7.0+Competitive+Hackathon+Builder;%E2%96%B6+Open+for+High-Impact+Software+Engineering+Roles!" alt="Typing SVG" />
-  </a>
-
-  <!-- 02 LIVE STATUS BAR: Online Engineering Telemetry & Timezone -->
-  <img src="./assets/status-bar.svg" alt="Developer Status Bar" width="100%" />
-
-  <!-- Clean Connect & Live Telemetry Radar -->
-  <p align="center" style="margin-top: 10px;">
-    <a href="https://linkedin.com/in/nitinshah69"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    &nbsp;
-    <a href="mailto:nitinshah@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-    &nbsp;
-    <a href="https://github.com/nitinshah69"><img src="https://img.shields.io/github/followers/nitinshah69?label=Followers&style=for-the-badge&color=238636&logo=github" alt="GitHub Followers" /></a>
-    &nbsp;
-    <img src="https://komarev.com/ghpvc/?username=nitinshah69&label=Profile%20Radar&color=FF6A1F&style=for-the-badge" alt="Profile Views" />
-  </p>
+  <!-- ==================== 02 / SYSTEM STATUS BAR ==================== -->
+  <img src="./assets/status-bar.svg" alt="System Status Bar" width="100%" />
 
 </div>
 
 <br/>
 
-## 🧭 03 / NOW · 2026 Command Center
+## 01 / ABOUT
 
-```ini
-[● BUILDING]   : Production AI Applications & Scalable Next.js 14 Web Systems
-[● LEARNING]   : Agentic Workflows, LangGraph & Structured LLM Tool-Calling
-[● EXPLORING]  : Production AI Observability & Low-Latency Edge Inference Runtimes
-[● 2026 TARGET]: Senior Full-Stack & AI Systems Engineering
-```
+AI-focused Full-Stack Software Engineer building reliable, high-performance web products and agentic workflows. Focused on modern web architecture, distributed systems, and embedding practical machine intelligence to eliminate high-friction operations.
 
 ---
 
-## 🏛️ 04 / About & Identity
+## 02 / CURRENTLY FOCUSED ON
 
-```text
-WHO I AM    : AI-focused Full-Stack Software Engineer building reliable, high-performance web products.
-WHAT I BUILD: Intelligent web applications, agentic workflows, and distributed micro-frontends.
-WHERE I GO  : Engineering scalable software systems that leverage practical machine intelligence.
-```
+<div align="center">
+  <img src="./assets/focus.svg" alt="Currently Focused On" width="100%" />
+</div>
 
 ---
 
-## 💡 05 / What I Build
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h4>🤖 Intelligent Products</h4>
-      <p>AI-native web applications embedding LLM inference, vector retrieval (RAG), and agentic tool-calling to automate high-friction workflows.</p>
-      <code>Next.js</code> · <code>FastAPI</code> · <code>OpenAI</code>
-    </td>
-    <td width="33%" valign="top">
-      <h4>⚡ Full-Stack Systems</h4>
-      <p>High-concurrency web platforms with optimized relational schemas, microsecond state synchronizations, and robust RBAC permissions.</p>
-      <code>TypeScript</code> · <code>Node</code> · <code>Postgres</code>
-    </td>
-    <td width="33%" valign="top">
-      <h4>🎨 Interactive Experiences</h4>
-      <p>Ultra-responsive, accessible user interfaces engineered with micro-interactions, optimistic state updates, and modern design precision.</p>
-      <code>React</code> · <code>Tailwind</code> · <code>Motion</code>
-    </td>
-  </tr>
-</table>
-
----
-
-## 🛠️ 06 / Current Stack & Layered Architecture
+## TECH STACK // LAYERED ARCHITECTURE
 
 <table>
   <tr>
     <td width="20%" valign="top">
-      <h4>Layer 01<br/>Interface</h4>
+      <h4>INTERFACE</h4>
       <ul>
         <li><code>React.js</code></li>
         <li><code>Next.js 14</code></li>
@@ -87,7 +40,7 @@ WHERE I GO  : Engineering scalable software systems that leverage practical mach
       </ul>
     </td>
     <td width="20%" valign="top">
-      <h4>Layer 02<br/>Application</h4>
+      <h4>APPLICATION</h4>
       <ul>
         <li><code>Node.js</code></li>
         <li><code>Express.js</code></li>
@@ -96,29 +49,29 @@ WHERE I GO  : Engineering scalable software systems that leverage practical mach
       </ul>
     </td>
     <td width="20%" valign="top">
-      <h4>Layer 03<br/>Persistence</h4>
+      <h4>DATA</h4>
       <ul>
         <li><code>PostgreSQL</code></li>
-        <li><code>Firestore</code></li>
-        <li><code>MySQL</code></li>
         <li><code>MongoDB</code></li>
+        <li><code>Firebase / Firestore</code></li>
+        <li><code>MySQL</code></li>
       </ul>
     </td>
     <td width="20%" valign="top">
-      <h4>Layer 04<br/>Intelligence</h4>
+      <h4>AI</h4>
       <ul>
-        <li><code>LLM APIs</code></li>
+        <li><code>Python</code></li>
+        <li><code>LLMs</code></li>
         <li><code>RAG Systems</code></li>
-        <li><code>Embeddings</code></li>
         <li><code>LangGraph</code></li>
       </ul>
     </td>
     <td width="20%" valign="top">
-      <h4>Layer 05<br/>Infra</h4>
+      <h4>INFRASTRUCTURE</h4>
       <ul>
-        <li><code>Ubuntu Linux</code></li>
         <li><code>Docker</code></li>
-        <li><code>GitHub CI/CD</code></li>
+        <li><code>Git &amp; GitHub Actions</code></li>
+        <li><code>Ubuntu Linux</code></li>
         <li><code>Vercel</code></li>
       </ul>
     </td>
@@ -127,34 +80,39 @@ WHERE I GO  : Engineering scalable software systems that leverage practical mach
 
 ---
 
-## 📈 07 / Skill Progress System
+## SKILL SYSTEM // JOURNEY PROGRESSION
 
 <div align="center">
-  <!-- Horizontal Journey Progress Lines -->
-  <img src="./assets/skills-final.svg" alt="Skill Horizontal Journeys" width="100%" />
+  <img src="./assets/skill-progress.svg" alt="Skill Journey Progression" width="100%" />
 </div>
 
 ---
 
-## 🌌 08 / Architectural Dependency Constellation
+## 03 / ENGINEERING SYSTEM
 
 <div align="center">
-  <!-- Architecture Constellation -->
-  <img src="./assets/skill-constellation.svg" alt="Skill Constellation Network" width="100%" />
+  <img src="./assets/engineering-system.svg" alt="Engineering System Constellation" width="100%" />
 </div>
 
 ---
 
-## 🗺️ 09 / My 2026 Learning Path
+## 04 / 2026 PATH
 
 <div align="center">
-  <!-- Learning Horizon -->
-  <img src="./assets/learning-path.svg" alt="Learning Roadmap 2026" width="100%" />
+  <img src="./assets/2026-path.svg" alt="2026 Engineering Path" width="100%" />
 </div>
 
 ---
 
-## 🚀 10 / Featured Project Showcases
+## HOW I BUILD // EXECUTION LIFECYCLE
+
+<div align="center">
+  <img src="./assets/build-process.svg" alt="How I Build - 8 Stage Process" width="100%" />
+</div>
+
+---
+
+## 05 / SELECTED WORK
 
 ### 01 / AambaaLabs E-Commerce Infrastructure
 <div align="center">
@@ -162,14 +120,13 @@ WHERE I GO  : Engineering scalable software systems that leverage practical mach
 </div>
 
 ```text
-Maturity:  [ PRODUCTION ────────────● ]
-Radar:     Frontend: 95% | Backend: 90% | Database: 85% | Infra: 80%
+Maturity: [ PRODUCTION ────────────● ]
+Radar:    Frontend: 95% | Backend: 90% | Database: 85% | Infra: 80%
 ```
 
-- **Problem Solved:** Enterprise client needed unified store management, live multi-channel inventory synchronization, and automated billing.
-- **My Role:** Lead Full-Stack Solutions Engineer.
-- **Tech Stack:** `Next.js 14` · `React 18` · `Tailwind CSS` · `Firebase Firestore` · `Cloud Functions`
-- **Technical Highlight:** Reduced inventory update latency below 120ms utilizing optimistic mutations and Firestore real-time snapshot listeners.
+- **Description:** Real-time store management, inventory synchronization, and automated billing engine.
+- **Tech Stack:** `Next.js 14` · `React 18` · `Tailwind CSS` · `Firebase Firestore`
+- **Key Technical Feature:** Reduced inventory update latency below 120ms utilizing optimistic mutations and Firestore real-time snapshot listeners.
 - **Links:** [Live Deployment ↗](https://github.com/nitinshah69) &nbsp;|&nbsp; [Source Code ↗](https://github.com/nitinshah69/aambaalabs-dashboard)
 
 ---
@@ -180,14 +137,13 @@ Radar:     Frontend: 95% | Backend: 90% | Database: 85% | Infra: 80%
 </div>
 
 ```text
-Maturity:  [ MVP ──────────● ]
-Radar:     AI / LLM: 92% | Frontend: 90% | Backend: 85% | Database: 75%
+Maturity: [ MVP ──────────● ]
+Radar:    AI / LLM: 92% | Frontend: 90% | Backend: 85% | Database: 75%
 ```
 
-- **Problem Solved:** Job applicants lack transparent feedback on ATS alignment, semantic keyword gaps, and industry role fit.
-- **My Role:** Creator & Full-Stack AI Engineer.
+- **Description:** LLM-powered resume parsing, ATS scoring vectors, and semantic keyword gap analysis.
 - **Tech Stack:** `Next.js` · `FastAPI` · `Python` · `OpenAI API` · `PostgreSQL`
-- **Technical Highlight:** Designed semantic vector embedding pipeline for multi-dimension resume-to-job matching with low-hallucination structured JSON outputs.
+- **Key Technical Feature:** Designed semantic vector embedding pipeline for multi-dimension resume-to-job matching with low-hallucination structured JSON outputs.
 - **Links:** [Live Demo ↗](https://github.com/nitinshah69) &nbsp;|&nbsp; [Source Code ↗](https://github.com/nitinshah69)
 
 ---
@@ -198,14 +154,13 @@ Radar:     AI / LLM: 92% | Frontend: 90% | Backend: 85% | Database: 75%
 </div>
 
 ```text
-Maturity:  [ PRODUCTION ────────────● ]
-Radar:     Backend: 92% | Database: 90% | Frontend: 88% | Infra: 75%
+Maturity: [ PRODUCTION ────────────● ]
+Radar:    Backend: 92% | Database: 90% | Frontend: 88% | Infra: 75%
 ```
 
-- **Problem Solved:** Streamlined multi-department institutional operations by replacing manual administrative workflows with audited digital processes.
-- **My Role:** Lead Full-Stack Developer.
+- **Description:** Institutional operations automation with role-based access, MySQL schemas, and reporting.
 - **Tech Stack:** `React.js` · `PHP Backend` · `MySQL` · `Tailwind CSS` · `JWT Authentication`
-- **Technical Highlight:** Built scalable relational schemas with strict role-based access control (RBAC), resulting in a 65% reduction in manual turnaround time.
+- **Key Technical Feature:** Built scalable relational schemas with strict role-based access control (RBAC), resulting in a 65% reduction in manual turnaround time.
 - **Links:** [Live Demo ↗](https://github.com/nitinshah69) &nbsp;|&nbsp; [Source Code ↗](https://github.com/nitinshah69/capstone-project)
 
 ---
@@ -216,90 +171,89 @@ Radar:     Backend: 92% | Database: 90% | Frontend: 88% | Infra: 75%
 </div>
 
 ```text
-Maturity:  [ MVP ──────────● ]
-Radar:     Frontend: 94% | Database: 82% | Backend: 80% | Infra: 70%
+Maturity: [ MVP ──────────● ]
+Radar:    Frontend: 94% | Database: 82% | Backend: 80% | Infra: 70%
 ```
 
-- **Problem Solved:** Built a collaborative real-time digital application under a high-pressure 24-hour sprint.
-- **My Role:** Core Frontend & Realtime State Lead.
+- **Description:** Collaborative real-time digital application built under a high-pressure 24-hour sprint.
 - **Tech Stack:** `Next.js` · `TypeScript` · `Tailwind CSS` · `Firebase Realtime DB`
-- **Technical Highlight:** Architected collision-free multi-client state management for concurrent collaborative sessions.
+- **Key Technical Feature:** Architected collision-free multi-client state management for concurrent collaborative sessions.
 - **Links:** [Live Demo ↗](https://github.com/nitinshah69) &nbsp;|&nbsp; [Source Code ↗](https://github.com/nitinshah69/reckon-hackathon)
 
 ---
 
-## 🔄 11 / Project Execution Pipeline // How I Build
+## 06 / GITHUB ACTIVITY
 
 <div align="center">
-  <!-- Stage-Gate Project Pipeline -->
-  <img src="./assets/project-pipeline.svg" alt="Project Lifecycle Pipeline" width="100%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=nitinshah69&show_icons=true&theme=tokyonight&bg_color=080808&title_color=FF6A1F&text_color=8A8A8A&icon_color=FF6A1F&border_color=242424&hide_border=false" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nitinshah69&layout=compact&theme=tokyonight&bg_color=080808&title_color=FF6A1F&text_color=8A8A8A&border_color=242424&hide_border=false" width="49%" alt="Top Languages" />
 </div>
 
 ---
 
-## 📊 12 / Activity Signal & Telemetry
+## ANNUAL CONTRIBUTION CADENCE
 
 <div align="center">
-  <!-- Minimal Monochrome Stats Card with Orange Accent -->
-  <img src="https://github-readme-stats.vercel.app/api?username=nitinshah69&show_icons=true&theme=tokyonight&bg_color=0A0A0A&title_color=FF6A1F&text_color=A1A1A1&icon_color=FF6A1F&border_color=242424&hide_border=false" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nitinshah69&layout=compact&theme=tokyonight&bg_color=0A0A0A&title_color=FF6A1F&text_color=A1A1A1&border_color=242424&hide_border=false" width="49%" alt="Top Languages" />
+  <img src="./assets/contributions.svg" alt="Contribution Grid Signal" width="100%" />
 </div>
 
 ---
 
-## ⚡ 13 / Annual Contribution Cadence
+## 3D CONTRIBUTION TOPOGRAPHY
 
 <div align="center">
-  <!-- Animated Contribution Signal -->
-  <img src="./assets/contributions-final.svg" alt="Contribution Grid Signal" width="100%" />
-</div>
-
----
-
-## 🌐 14 / 3D Contribution Topography
-
-<div align="center">
-  <!-- 3D Isometric Contribution Topography -->
   <img src="./assets/3d-contribution.svg" alt="3D Contribution Topography" width="100%" />
 </div>
 
 ---
 
-## 🗓️ 15 / 2026 Development Log & Timeline
+## 07 / DEVELOPMENT LOG
 
 <div align="center">
-  <img src="./assets/development-timeline.svg" alt="2026 Development Log Timeline" width="100%" />
+  <img src="./assets/timeline.svg" alt="2026 Development Log Timeline" width="100%" />
 </div>
 
 ---
 
-## 🔭 16 / Currently Exploring
+## 08 / CURRENTLY EXPLORING
 
 - `→` Autonomous multi-agent coordination protocols (`LangGraph` / `LangChain`)
-- `→` Edge-native AI model inference & streaming JSON responses
+- `→` Low-latency edge-native AI model inference & streaming structured JSON responses
 - `→` Vector database indexing optimizations (`Pinecone` / `pgvector`)
-- `→` Advanced motion physics and micro-interactions in modern web apps
+- `→` Advanced motion physics and micro-interactions in modern web systems
 
 ---
 
-## 📐 17 / Engineering Principles // How I Think
+## 09 / HOW I THINK // ENGINEERING PRINCIPLES
 
-<div align="center">
-  <img src="./assets/engineering-principles.svg" alt="Core Engineering Principles" width="100%" />
-</div>
+<table>
+  <tr>
+    <td width="25%" valign="top">
+      <h4>01 // INTENT</h4>
+      <p><b>Solve The Real Problem</b></p>
+      <p>Understand user constraints, data flow, and product requirements before writing a single line of code.</p>
+    </td>
+    <td width="25%" valign="top">
+      <h4>02 // CLARITY</h4>
+      <p><b>Keep Systems Simple</b></p>
+      <p>Modular, type-safe, and self-documenting codebases outperform clever but opaque architectures.</p>
+    </td>
+    <td width="25%" valign="top">
+      <h4>03 // LEVERAGE</h4>
+      <p><b>Use AI With Purpose</b></p>
+      <p>Embed artificial intelligence strictly where it provides concrete ROI and frictionless automation.</p>
+    </td>
+    <td width="25%" valign="top">
+      <h4>04 // VELOCITY</h4>
+      <p><b>Ship And Iterate</b></p>
+      <p>Continuous telemetry, benchmarking, and rapid release cycles to evolve products in the real world.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🪐 18 / Technology Orbit
-
-<div align="center">
-  <!-- Subtle Rotating Technology Orbit -->
-  <img src="./assets/technology-orbit.svg" alt="Technology Orbit" width="55%" />
-</div>
-
----
-
-## 🤝 19 / Open Source & Collaboration
+## OPEN SOURCE & COLLABORATION
 
 I actively contribute to and build open-source tools across web infrastructure, AI prototypes, and full-stack utilities.
 
@@ -308,7 +262,7 @@ I actively contribute to and build open-source tools across web infrastructure, 
 
 ---
 
-## 📬 20 / Connect & Final CTA
+## CONTACT // LET'S BUILD SOMETHING USEFUL
 
 <div align="center">
   <p><b>Have an interesting engineering problem to solve or a high-impact product to build?</b></p>
@@ -327,11 +281,6 @@ I actively contribute to and build open-source tools across web infrastructure, 
 
   <br/><br/>
 
-  <!-- Final Narrative Closing Thread: BUILD -> LEARN -> SHIP -> EVOLVE -->
-  <img src="./assets/signature-thread.svg" alt="START -> EXPLORE -> BUILD -> LEARN -> SHIP -> EVOLVE" width="100%" />
-  
-  <br/>
-
-  <!-- Final CTA Arrow -->
-  <img src="./assets/footer-thread.svg" alt="Let's Build Something Useful" width="100%" />
+  <!-- The Intelligent Orange Thread Returns & Points Toward The Future -->
+  <img src="./assets/footer-thread.svg" alt="LET'S BUILD SOMETHING USEFUL" width="100%" />
 </div>

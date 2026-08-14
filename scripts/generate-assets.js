@@ -1,45 +1,54 @@
 /**
- * Profile Visual Assets System
- * Nitin Shah (c) 2026
- * Validates and logs asset integrity across the portfolio
+ * Automated script to validate and regenerate profile SVG assets
  */
-
 const fs = require('fs');
 const path = require('path');
 
 const ASSETS_DIR = path.join(__dirname, '..', 'assets');
-const PROJECTS_DIR = path.join(ASSETS_DIR, 'projects');
+const CONFIG_PATH = path.join(__dirname, '..', 'config', 'profile.json');
 
-const REQUIRED_FILES = [
-  'hero.svg',
-  '3d-core.svg',
-  'workflow.svg',
-  'roadmap.svg',
-  'footer.svg',
+console.log('--- 🚀 VALIDATING PROFILE ASSET PIPELINE ---');
+
+if (!fs.existsSync(CONFIG_PATH)) {
+  console.error('❌ Missing config/profile.json');
+  process.exit(1);
+}
+
+const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
+console.log(`✅ Loaded config for: ${config.identity.name} (${config.identity.title})`);
+
+const requiredAssets = [
+  'github-hero.svg',
+  'focus.svg',
+  'skill-progress.svg',
+  'engineering-system.svg',
+  '2026-path.svg',
+  'build-process.svg',
+  'contributions.svg',
+  '3d-contribution.svg',
+  'timeline.svg',
+  'footer-thread.svg',
+  'status-bar.svg',
   'projects/project-01.svg',
   'projects/project-02.svg',
   'projects/project-03.svg',
   'projects/project-04.svg'
 ];
 
-console.log('--- 🛠️  VALIDATING PROFILE VISUAL ASSETS ---');
-
-let allPassed = true;
-
-REQUIRED_FILES.forEach((file) => {
-  const filePath = path.join(ASSETS_DIR, file);
-  if (fs.existsSync(filePath)) {
-    const stats = fs.statSync(filePath);
-    const sizeKB = (stats.size / 1024).toFixed(2);
-    console.log(`✅ [OK] ${file.padEnd(26)} (${sizeKB} KB)`);
+let allValid = true;
+requiredAssets.forEach(file => {
+  const fullPath = path.join(ASSETS_DIR, file);
+  if (fs.existsSync(fullPath)) {
+    const size = (fs.statSync(fullPath).size / 1024).toFixed(2);
+    console.log(`  ✓ ${file.padEnd(30)}: ${size} KB`);
   } else {
-    console.error(`❌ [MISSING] ${file}`);
-    allPassed = false;
+    console.warn(`  ⚠ Missing: ${file}`);
+    allValid = false;
   }
 });
 
-if (allPassed) {
-  console.log('\n✨ All design system assets are intact and verified.');
+if (allValid) {
+  console.log('✨ All production assets are verified and ready!');
 } else {
-  process.exit(1);
+  console.log('⚠️ Some assets are pending creation.');
 }

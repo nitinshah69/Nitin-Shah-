@@ -1,107 +1,90 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" width="100%" height="100%" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="100%" height="100%" fill="none">
   <defs>
     <linearGradient id="p2-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#141414"/>
-      <stop offset="100%" stop-color="#080808"/>
+      <stop offset="0%" stop-color="#0E0E0E"/>
+      <stop offset="100%" stop-color="#060606"/>
     </linearGradient>
 
-    <linearGradient id="scan-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="laser-beam" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FF6A1F" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FF6A1F" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#FF6A1F" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#FF6A1F" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FF6A1F" stop-opacity="0"/>
     </linearGradient>
 
     <style>
       .font-mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
       .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
 
-      @keyframes scanVertical {
-        0%, 100% { transform: translateY(0px); opacity: 0.8; }
-        50% { transform: translateY(65px); opacity: 1; }
+      @keyframes laserScanAnim {
+        0%, 100% { transform: translateY(0px); opacity: 0.3; }
+        50% { transform: translateY(85px); opacity: 1; filter: drop-shadow(0 0 6px #FF6A1F); }
       }
 
-      @keyframes scorePulse {
-        0%, 100% { filter: drop-shadow(0 0 2px rgba(255, 106, 31, 0.4)); }
-        50% { filter: drop-shadow(0 0 8px rgba(255, 106, 31, 0.9)); }
+      @keyframes p2ScorePulse {
+        0%, 100% { transform: scale(1); filter: drop-shadow(0 0 2px #FF6A1F); }
+        50% { transform: scale(1.08); filter: drop-shadow(0 0 8px #FF7A26); }
       }
 
-      .laser-scanner {
-        animation: scanVertical 3.5s ease-in-out infinite;
+      .laser-line {
+        animation: laserScanAnim 3.5s ease-in-out infinite;
       }
 
-      .score-glow {
-        animation: scorePulse 3s ease-in-out infinite;
+      .p2-score {
+        animation: p2ScorePulse 3s ease-in-out infinite;
+        transform-origin: center;
       }
     </style>
   </defs>
 
-  <!-- Base Plate -->
-  <rect width="700" height="300" rx="10" fill="url(#p2-bg)"/>
-  <rect width="698" height="298" x="1" y="1" rx="9" fill="none" stroke="#242424" stroke-width="1"/>
+  <!-- Container Base -->
+  <rect width="960" height="220" rx="10" fill="url(#p2-bg)"/>
+  <rect width="958" height="218" x="1" y="1" rx="9" fill="none" stroke="#242424" stroke-width="1"/>
 
-  <!-- Top Metadata Bar -->
-  <g transform="translate(30, 32)">
-    <circle cx="6" cy="0" r="3.5" fill="#FF6A1F"/>
-    <text x="18" y="4" fill="#A1A1A1" font-size="10" font-weight="700" letter-spacing="1.5" class="font-mono">PROJECT.02 // GENAI APPLICATION</text>
-    <text x="640" y="4" text-anchor="end" fill="#666666" font-size="9.5" class="font-mono">INTELLIGENCE PLATFORM</text>
-  </g>
+  <!-- Left: Metadata & Technical Architecture -->
+  <g transform="translate(40, 42)">
+    <rect width="130" height="22" rx="4" fill="#181410" stroke="#FF6A1F" stroke-width="1.2"/>
+    <text x="65" y="15" text-anchor="middle" fill="#FF7A26" font-size="9" font-weight="700" letter-spacing="1" class="font-mono">AI INTELLIGENCE MVP</text>
 
-  <!-- Left Info Column -->
-  <g transform="translate(30, 75)">
-    <text x="0" y="0" fill="#F5F5F0" font-size="20" font-weight="700" class="font-sans">AI Resume Intelligence Platform</text>
-    <text x="0" y="24" fill="#888888" font-size="11.5" class="font-sans">LLM-powered resume parsing, ATS scoring vectors &amp; semantic keyword gap analysis.</text>
-    
-    <!-- Tech Pills -->
-    <g transform="translate(0, 50)">
-      <rect width="70" height="22" rx="4" fill="#181818" stroke="#2A2A2A"/>
-      <text x="35" y="14" text-anchor="middle" fill="#E5E5E5" font-size="9" font-weight="600" class="font-mono">Next.js</text>
-      
-      <rect x="78" width="60" height="22" rx="4" fill="#181818" stroke="#2A2A2A"/>
-      <text x="108" y="14" text-anchor="middle" fill="#E5E5E5" font-size="9" font-weight="600" class="font-mono">FastAPI</text>
+    <text x="0" y="52" fill="#F4F1EA" font-size="18" font-weight="700" class="font-sans">AI Resume Intelligence Platform</text>
+    <text x="0" y="78" fill="#8A8A8A" font-size="12" class="font-sans">LLM-powered semantic parsing, vector similarity scoring, and ATS keyword extraction.</text>
 
-      <rect x="146" width="60" height="22" rx="4" fill="#181818" stroke="#2A2A2A"/>
-      <text x="176" y="14" text-anchor="middle" fill="#E5E5E5" font-size="9" font-weight="600" class="font-mono">Python</text>
+    <!-- Metrics Row -->
+    <g transform="translate(0, 110)">
+      <text x="0" y="0" fill="#FF7A26" font-size="15" font-weight="700" class="font-mono">92 / 100</text>
+      <text x="0" y="18" fill="#666666" font-size="9" class="font-mono">ATS MATCH SCORE</text>
 
-      <rect x="214" width="70" height="22" rx="4" fill="#181818" stroke="#2A2A2A"/>
-      <text x="249" y="14" text-anchor="middle" fill="#E5E5E5" font-size="9" font-weight="600" class="font-mono">OpenAI</text>
-    </g>
+      <text x="130" y="0" fill="#F4F1EA" font-size="15" font-weight="700" class="font-mono">FASTAPI</text>
+      <text x="130" y="18" fill="#666666" font-size="9" class="font-mono">PYTHON BACKEND</text>
 
-    <!-- Key Metrics Highlight -->
-    <g transform="translate(0, 115)">
-      <text x="0" y="0" fill="#666666" font-size="9" font-weight="600" class="font-mono">MATCH ACCURACY</text>
-      <text x="0" y="18" fill="#FF6A1F" font-size="16" font-weight="700" class="font-mono">94.8%</text>
-
-      <text x="120" y="0" fill="#666666" font-size="9" font-weight="600" class="font-mono">VECTOR ENGINE</text>
-      <text x="120" y="18" fill="#F5F5F0" font-size="16" font-weight="700" class="font-mono">Embeddings</text>
-      
-      <text x="230" y="0" fill="#666666" font-size="9" font-weight="600" class="font-mono">RESPONSE</text>
-      <text x="230" y="18" fill="#F5F5F0" font-size="16" font-weight="700" class="font-mono">Streaming</text>
+      <text x="240" y="0" fill="#F4F1EA" font-size="15" font-weight="700" class="font-mono">STRUCTURED</text>
+      <text x="240" y="18" fill="#666666" font-size="9" class="font-mono">JSON EMBEDDINGS</text>
     </g>
   </g>
 
-  <!-- Right Visual Card: Document Scanning & AI Vector Metaphor -->
-  <g transform="translate(410, 70)">
-    <rect width="250" height="195" rx="8" fill="#121212" stroke="#262626"/>
-    
-    <!-- Abstract Text Lines -->
-    <line x1="25" y1="35" x2="140" y2="35" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
-    <line x1="25" y1="52" x2="220" y2="52" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
-    <line x1="25" y1="64" x2="190" y2="64" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
-    <line x1="25" y1="76" x2="210" y2="76" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
-    <line x1="25" y1="88" x2="170" y2="88" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+  <!-- Right: Document + Laser Scanner Simulation -->
+  <g transform="translate(560, 35)">
+    <rect width="360" height="150" rx="8" fill="#121212" stroke="#222222"/>
+    <text x="18" y="24" fill="#8A8A8A" font-size="9.5" font-weight="600" class="font-mono">LLM RESUME VECTOR SCANNER</text>
 
-    <!-- Animated Scanning Laser Effect -->
-    <g class="laser-scanner">
-      <rect x="15" y="40" width="220" height="25" fill="url(#scan-grad)" opacity="0.4"/>
-      <line x1="15" y1="65" x2="235" y2="65" stroke="#FF6A1F" stroke-width="2"/>
-      <circle cx="235" cy="65" r="3" fill="#FF6A1F"/>
+    <!-- Document Wireframe Skeleton -->
+    <g transform="translate(20, 42)">
+      <rect width="200" height="92" rx="4" fill="#181818" stroke="#282828"/>
+      <!-- Content Skeleton Lines -->
+      <line x1="14" y1="18" x2="90" y2="18" stroke="#FF6A1F" stroke-width="2.5"/>
+      <line x1="14" y1="32" x2="186" y2="32" stroke="#333333" stroke-width="2"/>
+      <line x1="14" y1="46" x2="160" y2="46" stroke="#333333" stroke-width="2"/>
+      <line x1="14" y1="60" x2="180" y2="60" stroke="#333333" stroke-width="2"/>
+      <line x1="14" y1="74" x2="120" y2="74" stroke="#333333" stroke-width="2"/>
+
+      <!-- Scanning Laser Beam -->
+      <line x1="0" y1="8" x2="200" y2="8" stroke="url(#laser-beam)" stroke-width="2.5" class="laser-line"/>
     </g>
 
-    <!-- Output AI Match Analysis Badge -->
-    <g class="score-glow">
-      <rect x="25" y="145" width="200" height="35" rx="5" fill="#1A1A1A" stroke="#FF6A1F" stroke-width="1.2"/>
-      <text x="40" y="166" fill="#F5F5F0" font-size="11" font-weight="600" class="font-sans">ATS Score Index: </text>
-      <text x="145" y="166" fill="#FF6A1F" font-size="12" font-weight="700" class="font-mono">92 / 100</text>
+    <!-- Score Badge Widget -->
+    <g transform="translate(245, 52)">
+      <circle cx="45" cy="40" r="32" fill="#181410" stroke="#FF6A1F" stroke-width="1.8" class="p2-score"/>
+      <text x="45" y="37" text-anchor="middle" fill="#FF7A26" font-size="16" font-weight="700" class="font-mono">92%</text>
+      <text x="45" y="52" text-anchor="middle" fill="#8A8A8A" font-size="8" font-weight="600" class="font-mono">MATCH</text>
     </g>
   </g>
 </svg>

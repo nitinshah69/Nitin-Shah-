@@ -1,90 +1,86 @@
 {
-  "name": "Nitin Shah",
-  "title": "AI & Full-Stack Systems Engineer",
-  "location": "New Delhi, India",
-  "timezone": "UTC +05:30",
-  "status": {
-    "availability": "Available for High-Impact Roles & Contracts",
-    "building": "AI-Powered Applications & Scalable Web Platforms",
-    "focus": ["AI", "Full-Stack Development", "GenAI Architecture"]
+  "identity": {
+    "name": "Nitin Shah",
+    "title": "AI / FULL-STACK DEVELOPER",
+    "positioning": "Building intelligent products, modern web systems, and AI-powered experiences.",
+    "location": "India",
+    "timezone": "UTC +05:30",
+    "status": "SYSTEM ONLINE // AVAILABLE FOR 2026 ROLES"
   },
-  "now": {
-    "building": "Production AI Tooling & Distributed Next.js 14 Systems",
-    "learning": "Agentic Workflows, LangGraph & Structured LLM Tool-Calling",
-    "exploring": "Production AI Deployment & Edge Inference Runtimes",
-    "target": "Senior Full-Stack & AI Systems Engineering"
+  "currentFocus": [
+    { "id": "01", "name": "AI & Agentic Systems", "detail": "LangGraph, RAG & Tool Execution" },
+    { "id": "02", "name": "Full-Stack Products", "detail": "Next.js 14, TypeScript & Cloud" },
+    { "id": "03", "name": "System Architecture", "detail": "Relational Schemas & Low Latency" },
+    { "id": "04", "name": "Clean Code", "detail": "Type-Safety, Modular Patterns" },
+    { "id": "05", "name": "User Experience", "detail": "Motion Physics & Micro-Interactions" }
+  ],
+  "technicalLayers": {
+    "interface": ["React.js", "Next.js 14", "Tailwind CSS", "HTML5/CSS3"],
+    "application": ["Node.js", "Express.js", "FastAPI", "Python"],
+    "data": ["PostgreSQL", "MongoDB", "Firebase / Firestore", "MySQL"],
+    "ai": ["Python", "LLMs", "RAG", "LangChain", "LangGraph", "AI SDKs"],
+    "infrastructure": ["Docker", "Git & GitHub Actions", "Ubuntu Linux", "Vercel / Cloud"]
   },
-  "skills": {
-    "journey": [
-      { "name": "TypeScript / JavaScript", "status": "PRODUCTION", "confidence": "High", "journey": "BUILD → SHIP" },
-      { "name": "React.js / Next.js 14", "status": "PRODUCTION", "confidence": "High", "journey": "BUILD → SHIP" },
-      { "name": "Python / FastAPI", "status": "COMFORTABLE", "confidence": "Medium-High", "journey": "LEARN → BUILD" },
-      { "name": "Firebase / Firestore", "status": "PRODUCTION", "confidence": "High", "journey": "BUILD → SHIP" },
-      { "name": "LLMs / RAG / Embeddings", "status": "BUILDING", "confidence": "Medium", "journey": "EXPERIMENT → BUILD" },
-      { "name": "Agentic Systems / LangGraph", "status": "LEARNING", "confidence": "Developing", "journey": "RESEARCH → LEARN" }
-    ]
-  },
-  "learningRoadmap": [
-    { "stage": "01", "name": "FOUNDATIONS", "desc": "Data Structures & Core CS", "status": "COMPLETED" },
-    { "stage": "02", "name": "FULL STACK", "desc": "Next.js, Node, TypeScript, SQL", "status": "COMPLETED" },
-    { "stage": "03", "name": "GENERATIVE AI", "desc": "LLM APIs, Vector Embeddings, RAG", "status": "CURRENT_FOCUS" },
-    { "stage": "04", "name": "AGENTIC SYSTEMS", "desc": "Tool Calling, Multi-Agent Swarms", "status": "IN_PROGRESS" },
-    { "stage": "05", "name": "PRODUCTION AI", "desc": "Observability, Low-Latency Edge", "status": "UPCOMING" },
-    { "stage": "06", "name": "REAL-WORLD PRODUCTS", "desc": "High-Throughput Autonomous SaaS", "status": "FUTURE" }
+  "skillStates": [
+    { "skill": "React.js & Next.js 14", "state": "PRODUCTION", "journey": "BUILD → SHIP" },
+    { "skill": "TypeScript / JavaScript", "state": "PRODUCTION", "journey": "BUILD → SHIP" },
+    { "skill": "Python / FastAPI", "state": "COMFORTABLE", "journey": "LEARN → BUILD" },
+    { "skill": "Firebase & Databases", "state": "PRODUCTION", "journey": "BUILD → SHIP" },
+    { "skill": "LLMs, RAG & Vectors", "state": "BUILDING", "journey": "EXPERIMENT → BUILD" },
+    { "skill": "Agentic Systems (LangGraph)", "state": "LEARNING", "journey": "RESEARCH → LEARN" }
+  ],
+  "path2026": [
+    { "step": "01", "title": "FOUNDATIONS", "status": "COMPLETED" },
+    { "step": "02", "title": "FULL STACK", "status": "COMPLETED" },
+    { "step": "03", "title": "GENERATIVE AI", "status": "CURRENT_FOCUS" },
+    { "step": "04", "title": "AGENTIC SYSTEMS", "status": "IN_PROGRESS" },
+    { "step": "05", "title": "PRODUCTION AI", "status": "UPCOMING" }
   ],
   "projects": [
     {
-      "id": "project-01",
-      "title": "AambaaLabs E-Commerce Infrastructure",
-      "tagline": "Real-time store management, inventory synchronization & automated billing.",
-      "role": "Lead Full-Stack Solutions Engineer",
+      "id": "01",
+      "name": "AambaaLabs E-Commerce Infrastructure",
+      "desc": "Real-time store management, inventory synchronization, and automated billing.",
+      "stack": ["Next.js 14", "React 18", "Tailwind CSS", "Firebase Firestore"],
+      "highlight": "Sub-120ms optimistic mutations and real-time Firestore synchronization.",
       "maturity": "PRODUCTION",
-      "stack": ["Next.js 14", "React", "Tailwind CSS", "Firebase", "Cloud Functions"],
-      "radar": { "frontend": 95, "backend": 90, "database": 85, "ai": 30, "infra": 80 },
-      "challenge": "Minimizing data latency on live inventory updates with sub-120ms optimistic UI synchronizations.",
       "live": "https://github.com/nitinshah69",
       "source": "https://github.com/nitinshah69/aambaalabs-dashboard"
     },
     {
-      "id": "project-02",
-      "title": "AI Resume Intelligence Platform",
-      "tagline": "LLM-powered resume parsing, ATS scoring vectors & semantic keyword gap analysis.",
-      "role": "Creator & Full-Stack AI Engineer",
-      "maturity": "MVP",
+      "id": "02",
+      "name": "AI Resume Intelligence Platform",
+      "desc": "LLM-powered resume parsing, ATS scoring vectors, and semantic keyword gap analysis.",
       "stack": ["Next.js", "FastAPI", "Python", "OpenAI API", "PostgreSQL"],
-      "radar": { "frontend": 90, "backend": 85, "database": 75, "ai": 92, "infra": 70 },
-      "challenge": "Structuring vector embeddings and prompt engineering pipelines for reliable, low-hallucination keyword gap extraction.",
+      "highlight": "Semantic vector embedding pipeline with structured JSON outputs and zero-hallucination guardrails.",
+      "maturity": "MVP",
       "live": "https://github.com/nitinshah69",
       "source": "https://github.com/nitinshah69"
     },
     {
-      "id": "project-03",
-      "title": "Enterprise Cloud Workflow Hub",
-      "tagline": "Institutional operations automation with role-based access, MySQL schemas & reporting.",
-      "role": "Lead Full-Stack Developer",
-      "maturity": "PRODUCTION",
+      "id": "03",
+      "name": "Enterprise Cloud Workflow Hub",
+      "desc": "Institutional operations automation with role-based access, MySQL schemas, and reporting.",
       "stack": ["React.js", "PHP Backend", "MySQL", "Tailwind CSS", "JWT Auth"],
-      "radar": { "frontend": 88, "backend": 92, "database": 90, "ai": 20, "infra": 75 },
-      "challenge": "Designing complex relational data schemas with granular role-based access control (RBAC) and audited activity logs.",
+      "highlight": "Complex relational data schemas with granular RBAC permissions, reducing manual operational time by 65%.",
+      "maturity": "PRODUCTION",
       "live": "https://github.com/nitinshah69",
       "source": "https://github.com/nitinshah69/capstone-project"
     },
     {
-      "id": "project-04",
-      "title": "RECKON 7.0 Real-Time Hackathon Engine",
-      "tagline": "High-concurrency collaborative platform built under 24-hour hackathon constraints.",
-      "role": "Core Frontend & Realtime State Lead",
-      "maturity": "MVP",
+      "id": "04",
+      "name": "RECKON 7.0 Real-Time Hackathon Engine",
+      "desc": "High-concurrency collaborative platform built under 24-hour hackathon sprint constraints.",
       "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Firebase Realtime DB"],
-      "radar": { "frontend": 94, "backend": 80, "database": 82, "ai": 40, "infra": 70 },
-      "challenge": "Managing high-velocity concurrent state updates without UI jitter under tight hackathon time constraints.",
+      "highlight": "Collision-free multi-client state management for concurrent collaborative sessions.",
+      "maturity": "MVP",
       "live": "https://github.com/nitinshah69",
       "source": "https://github.com/nitinshah69/reckon-hackathon"
     }
   ],
   "social": {
-    "github": "https://github.com/nitinshah69",
     "linkedin": "https://linkedin.com/in/nitinshah69",
+    "github": "https://github.com/nitinshah69",
     "email": "nitinshah@example.com"
   }
 }
