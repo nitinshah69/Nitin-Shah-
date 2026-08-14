@@ -1,9 +1,9 @@
 <div align="center">
 
-  <!-- 3D Sci-Fi / Cyberpunk Hologram Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,8,24,30&height=230&section=header&text=NITIN%20SHAH%20⚡&fontSize=52&fontColor=38bdf8&animation=twinkling&fontAlignY=40&desc=%E2%9E%A4%20FULL-STACK%20SYSTEMS%20ARCHITECT%20%7C%20NEXT.JS%20%26%20CLOUD%20ENGINEER&descAlignY=65&descAlign=50" width="100%" />
+  <!-- 3D Cyberpunk Holographic Header -->
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,8,24,30&height=230&section=header&text=NITIN%20SHAH%20⚡&fontSize=52&fontColor=38bdf8&animation=twinkling&fontAlignY=40&desc=%E2%9E%A4%20FULL-STACK%20SOFTWARE%20ENGINEER%20%7C%20NEXT.JS%20%26%20CLOUD%20ARCHITECT&descAlignY=65&descAlign=50" width="100%" />
 
-  <!-- 3D Binary Scan & Hologram Avatar HUD -->
+  <!-- 3D Binary Hologram Avatar HUD -->
   <table border="0" style="border: none; background: transparent;">
     <tr>
       <td align="center" style="border: none;">
@@ -11,14 +11,14 @@
           <img src="https://avatars.githubusercontent.com/u/108343714?v=4" width="140px" style="border-radius: 50%; border: 3px solid #00f2fe; box-shadow: 0 0 25px #00f2fe, 0 0 50px #38bdf8;" alt="Nitin Shah Avatar" />
         </div>
         <br/>
-        <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=15&duration=2000&pause=800&color=00F2FE&center=true&vCenter=true&width=380&lines=%5B%E2%97%88+NEURAL+LINK%3A+CONNECTED+%5D;%5B%E2%9A%A1+3D+CORE+MATRIX%3A+ENGAGED+%5D;%5B%F0%9F%9B%A1%EF%B8%8F+SECURITY+LEVEL%3A+ROOT+%5D" alt="Binary HUD Status" />
+        <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=15&duration=2000&pause=800&color=00F2FE&center=true&vCenter=true&width=420&lines=%5B%E2%97%88+NEURAL+LINK%3A+CONNECTED+%5D;%5B%E2%9A%A1+3D+SYSTEM+CORE%3A+ONLINE+%5D;%5B%F0%9F%94%A5+STATUS%3A+BUILDING+NEXT-GEN+APPS+%5D" alt="Binary HUD Status" />
       </td>
     </tr>
   </table>
 
   <!-- Dynamic Multi-Line Typewriter -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=%E2%96%B6+Full-Stack+Architect+(Next.js+14+%7C+React+%7C+Tailwind);%E2%96%B6+Building+High-Performance+Distributed+Web+Apps;%E2%96%B6+Competitive+Hackathon+Builder+(RECKON+7.0);%E2%96%B6+Final-Year+BCA+@+Amity+University%2C+Delhi;%E2%96%B6+Available+for+High-Impact+Software+Engineering+Roles!" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=%E2%96%B6+Full-Stack+Software+Engineer+(Next.js+14+%7C+React+%7C+Tailwind);%E2%96%B6+Architecting+High-Performance+Cloud+%26+Web+Platforms;%E2%96%B6+E-Commerce+Infrastructure+Developer+@+AambaaLabs;%E2%96%B6+RECKON+7.0+Competitive+Hackathon+Builder;%E2%96%B6+Open+for+High-Impact+Software+Engineering+Roles!" alt="Typing SVG" />
   </a>
 
   <br/>
@@ -28,7 +28,7 @@
     <a href="https://linkedin.com/in/nitinshah69"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="mailto:nitinshah@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
     <a href="https://github.com/nitinshah69"><img src="https://img.shields.io/github/followers/nitinshah69?label=Followers&style=for-the-badge&color=238636&logo=github" alt="GitHub Followers" /></a>
-    <img src="https://komarev.com/ghpvc/?username=nitinshah69&label=Hologram%20Views&color=00f2fe&style=for-the-badge" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=nitinshah69&label=Profile%20Radar&color=00f2fe&style=for-the-badge" alt="Profile Views" />
   </p>
 
 </div>
@@ -38,7 +38,7 @@
 ### 🌐 3D Isometric Contribution City
 
 <div align="center">
-  <p><b>Real-time Isometric 3D Rendering of Git Commit Density:</b></p>
+  <p><b>Real-Time 3D Isometric Git Activity Landscape:</b></p>
   <img src="https://github-profile-3d-contrib.vercel.app/api?username=nitinshah69&theme=tokyonight-duo" width="100%" alt="3D Isometric Contribution Graph" />
 </div>
 
@@ -54,26 +54,91 @@
 
 ---
 
-### ⚡ Cyber Matrix // Profile Architecture
+### ⚡ Engineering Matrix // Core Profile
 
 ```bash
-nitin@amity-core:~$ ./display_matrix_specs.sh
+nitin@production-core:~$ ./display_engineer_telemetry.sh
 ```
 
 ```ini
-  [>] CODENAME      : Nitin Shah
-  [>] CAMPUS        : Amity University, Delhi (BCA Final Semester)
-  [>] DOMAIN        : Full-Stack Web Development & Reactive Systems
-  [>] POWER-STACK   : Next.js 14, React, Tailwind CSS, TypeScript, Firebase, PHP
-  [>] RECENT SPRINT : Freelance E-Commerce Infrastructure @ AambaaLabs
+  [>] NAME          : Nitin Shah
+  [>] ROLE          : Full-Stack Software Engineer & Web Architect
+  [>] CORE DOMAIN   : Scalable Web Systems, Reactive Frontends & Cloud Services
+  [>] POWER-STACK   : Next.js 14, React, TypeScript, Tailwind CSS, Firebase, PHP, Node.js
+  [>] EXPERIENCE    : Freelance Solutions Engineer @ AambaaLabs
   [>] HACKATHON     : RECKON 7.0 (24-Hour Competitive Sprint)
-  [>] DIRECTIVE     : Engineering scalable, microsecond-latency user experiences
-  [>] STATUS        : 🟢 Ready for Full-Time / SDE / Frontend Opportunities
+  [>] ARCHITECTURE  : Micro-Frontends, Serverless Functions, Realtime Firestore
+  [>] STATUS        : 🟢 Open for Full-Time Software Engineering Roles & Contracts
 ```
 
 ---
 
-### 🧬 Animated Skill Orbit & 3D Matrix
+### 🚀 Production Deployments & Showcase
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <div align="center">
+        <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:1e293b,100:0f172a&height=120&text=AambaaLabs%20E-Commerce%20Engine&fontSize=22&fontColor=38bdf8" width="100%" alt="AambaaLabs Project" />
+      </div>
+      <h3 align="center">🛍️ AambaaLabs E-Commerce Infrastructure</h3>
+      <p><b>Enterprise Client Dashboard:</b> Commercial-grade administrative ecosystem built for AambaaLabs. Features real-time Firestore database synchronization, inventory analytics, automated billing, and responsive mobile-first workflows.</p>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Next.js%2014-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/React%2018-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
+      </div>
+      <br/>
+      <p align="center">
+        <a href="https://github.com/nitinshah69"><b>🌐 Live Demo</b></a> &nbsp;|&nbsp; 
+        <a href="https://github.com/nitinshah69/aambaalabs-dashboard"><b>💻 Source Code</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <div align="center">
+        <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:1e293b,100:0f172a&height=120&text=Enterprise%20Workflow%20Hub&fontSize=22&fontColor=00f2fe" width="100%" alt="Workflow Platform" />
+      </div>
+      <h3 align="center">⚡ Enterprise Cloud Workflow Hub</h3>
+      <p><b>Full-Stack Automation Platform:</b> Robust operations management software streamlining institutional workflows with granular RBAC permissions, high-concurrency MySQL schemas, and reactive forms.</p>
+      <div align="center">
+        <img src="https://img.shields.io/badge/React.js-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/PHP%20Backend-777BB4?style=flat-square&logo=php&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+      </div>
+      <br/>
+      <p align="center">
+        <a href="https://github.com/nitinshah69"><b>🌐 Live Demo</b></a> &nbsp;|&nbsp; 
+        <a href="https://github.com/nitinshah69/capstone-project"><b>💻 Source Code</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <div align="center">
+        <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:1e293b,100:0f172a&height=110&text=RECKON%207.0%20%7C%2024-Hour%20Innovation%20Sprint&fontSize=24&fontColor=a855f7" width="100%" alt="Hackathon Sprint" />
+      </div>
+      <h3 align="center">⚡ RECKON 7.0 Real-Time Hackathon Sprint Build</h3>
+      <p align="center"><b>24-Hour Competitive Sprint Platform:</b> Rapidly engineered under hackathon constraints. Features ultra-responsive state handling, dynamic UI rendering, and sub-second Firebase backend updates.</p>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Next.js-black?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+        <img src="https://img.shields.io/badge/Firebase-FFA611?style=flat-square&logo=firebase&logoColor=white" />
+      </div>
+      <br/>
+      <p align="center">
+        <a href="https://github.com/nitinshah69"><b>🌐 Live Demo</b></a> &nbsp;|&nbsp; 
+        <a href="https://github.com/nitinshah69/reckon-hackathon"><b>💻 Source Code</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🧬 Interactive 3D Skill Matrix & Toolkit
 
 <div align="center">
   <!-- Interactive Animated Skill Icons -->
@@ -98,7 +163,7 @@ nitin@amity-core:~$ ./display_matrix_specs.sh
 
 ---
 
-### 🌌 Holographic Activity Radar & Telemetry
+### 🌌 Holographic Activity Radar & Live Metrics
 
 <div align="center">
   <!-- Neon Activity Graph Curve -->
@@ -123,61 +188,6 @@ nitin@amity-core:~$ ./display_matrix_specs.sh
 
 ---
 
-### 🛸 Featured Deployments & Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🛍️ AambaaLabs E-Commerce Engine</h3>
-      <p><b>Enterprise Client Dashboard:</b> Commercial-grade store management ecosystem with real-time Firestore database synchronization, inventory analytics, responsive order workflows, and automated reporting.</p>
-      <div align="center">
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
-        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-      </div>
-      <br/>
-      <p align="center">
-        <a href="https://github.com/nitinshah69"><b>🌐 Live Demo</b></a> &nbsp;|&nbsp; 
-        <a href="https://github.com/nitinshah69/aambaalabs-dashboard"><b>💻 Source Code</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🎓 Amity Capstone Central</h3>
-      <p><b>Institutional Workflow Platform:</b> Major university capstone project automating multi-role institutional workflows with secure authentication, relational MySQL schema design, and dynamic interfaces.</p>
-      <div align="center">
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-      </div>
-      <br/>
-      <p align="center">
-        <a href="https://github.com/nitinshah69"><b>🌐 Live Demo</b></a> &nbsp;|&nbsp; 
-        <a href="https://github.com/nitinshah69/capstone-project"><b>💻 Source Code</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3 align="center">⚡ RECKON 7.0 Hackathon Sprint Build</h3>
-      <p align="center"><b>24-Hour Competitive Sprint:</b> Rapidly engineered under hackathon constraints. Features ultra-responsive state handling, dynamic UI rendering, and sub-second Firebase backend updates.</p>
-      <div align="center">
-        <img src="https://img.shields.io/badge/Next.js-black?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-        <img src="https://img.shields.io/badge/Firebase-FFA611?style=flat-square&logo=firebase&logoColor=white" />
-      </div>
-      <br/>
-      <p align="center">
-        <a href="https://github.com/nitinshah69"><b>🌐 Live Demo</b></a> &nbsp;|&nbsp; 
-        <a href="https://github.com/nitinshah69/reckon-hackathon"><b>💻 Source Code</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
 ### 🐍 Contribution Stream & Cyber Quotes
 
 <div align="center">
@@ -196,7 +206,7 @@ nitin@amity-core:~$ ./display_matrix_specs.sh
 ### 📡 Establish Neural Connection
 
 <div align="center">
-  <p>Ready to build the next groundbreaking platform together? Let's connect!</p>
+  <p>Ready to collaborate on cutting-edge web applications or high-impact projects? Let's connect!</p>
   
   <a href="https://linkedin.com/in/nitinshah69">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
