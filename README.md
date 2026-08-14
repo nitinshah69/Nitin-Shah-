@@ -1,38 +1,28 @@
 <div align="center">
 
-  <!-- Dynamic Header Cylinder / Waving Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,8,24,30&height=230&section=header&text=NITIN%20SHAH%20⚡&fontSize=52&fontColor=38bdf8&animation=twinkling&fontAlignY=40&desc=%E2%9E%A4%20FULL-STACK%20SOFTWARE%20ENGINEER%20%7C%20AI%20%26%20CLOUD%20ARCHITECT&descAlignY=65&descAlign=50" width="100%" />
-
-  <!-- 3D Binary Hologram Avatar HUD -->
-  <table border="0" style="border: none; background: transparent;">
-    <tr>
-      <td align="center" style="border: none;">
-        <div style="position: relative; display: inline-block;">
-          <img src="https://avatars.githubusercontent.com/u/108343714?v=4" width="140px" style="border-radius: 50%; border: 3px solid #00f2fe; box-shadow: 0 0 25px #00f2fe, 0 0 50px #38bdf8;" alt="Nitin Shah Avatar" />
-        </div>
-        <br/>
-        <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=15&duration=2000&pause=800&color=00F2FE&center=true&vCenter=true&width=420&lines=%5B%E2%97%88+NEURAL+LINK%3A+CONNECTED+%5D;%5B%E2%9A%A1+3D+SYSTEM+CORE%3A+ONLINE+%5D;%5B%F0%9F%94%A5+STATUS%3A+BUILDING+NEXT-GEN+APPS+%5D" alt="Binary HUD Status" />
-      </td>
-    </tr>
-  </table>
-
-  <!-- Dynamic Multi-Line Typewriter Animation -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=%E2%96%B6+Full-Stack+Software+Engineer+(Next.js+14+%7C+React+%7C+Tailwind);%E2%96%B6+Architecting+High-Performance+Cloud+%26+Web+Platforms;%E2%96%B6+E-Commerce+Infrastructure+Developer+@+AambaaLabs;%E2%96%B6+RECKON+7.0+Competitive+Hackathon+Builder;%E2%96%B6+Open+for+High-Impact+Software+Engineering+Roles!" alt="Typing SVG" />
+  <!-- 01 SIGNATURE MODERN HERO: Clean Editorial Studio Canvas -->
+  <a href="https://github.com/nitinshah69">
+    <img src="./assets/hero-modern.svg" alt="Nitin Shah — AI & Full-Stack Systems Engineer" width="100%" />
   </a>
 
-  <br/>
+  <!-- Dynamic Animated Multi-Line Typewriter -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2800&pause=1000&color=FF6A1F&center=true&vCenter=true&width=750&lines=%E2%96%B6+Full-Stack+Software+Engineer+(Next.js+14+%7C+React+%7C+Tailwind);%E2%96%B6+Architecting+High-Performance+Cloud+%26+Web+Platforms;%E2%96%B6+E-Commerce+Infrastructure+Developer+@+AambaaLabs;%E2%96%B6+RECKON+7.0+Competitive+Hackathon+Builder;%E2%96%B6+Open+for+High-Impact+Software+Engineering+Roles!" alt="Typing SVG" />
+  </a>
 
-  <!-- 3D Glow Status & Radar Badges -->
-  <p align="center">
-    <a href="https://linkedin.com/in/nitinshah69"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:nitinshah@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-    <a href="https://github.com/nitinshah69"><img src="https://img.shields.io/github/followers/nitinshah69?label=Followers&style=for-the-badge&color=238636&logo=github" alt="GitHub Followers" /></a>
-    <img src="https://komarev.com/ghpvc/?username=nitinshah69&label=Profile%20Radar&color=00f2fe&style=for-the-badge" alt="Profile Views" />
-  </p>
-
-  <!-- Live Engineering Status Bar -->
+  <!-- 02 LIVE STATUS BAR: Online Engineering Telemetry & Timezone -->
   <img src="./assets/status-bar.svg" alt="Developer Status Bar" width="100%" />
+
+  <!-- Clean Connect & Live Telemetry Radar -->
+  <p align="center" style="margin-top: 10px;">
+    <a href="https://linkedin.com/in/nitinshah69"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    &nbsp;
+    <a href="mailto:nitinshah@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    &nbsp;
+    <a href="https://github.com/nitinshah69"><img src="https://img.shields.io/github/followers/nitinshah69?label=Followers&style=for-the-badge&color=238636&logo=github" alt="GitHub Followers" /></a>
+    &nbsp;
+    <img src="https://komarev.com/ghpvc/?username=nitinshah69&label=Profile%20Radar&color=FF6A1F&style=for-the-badge" alt="Profile Views" />
+  </p>
 
 </div>
 
