@@ -1,41 +1,50 @@
 <div align="center">
 
-  <!-- Futuristic Cyberpunk / Binary Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,8,24,30&height=220&section=header&text=NITIN%20SHAH%20⚡&fontSize=52&fontColor=38bdf8&animation=twinkling&fontAlignY=42&desc=%3C%20FULL-STACK%20ENGINEER%20%2F%2F%20SYSTEMS%20%26%20WEB3%20READY%20%3E&descAlignY=64&descAlign=50" width="100%" />
+  <!-- 3D Sci-Fi / Cyberpunk Hologram Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,8,24,30&height=230&section=header&text=NITIN%20SHAH%20⚡&fontSize=52&fontColor=38bdf8&animation=twinkling&fontAlignY=40&desc=%E2%9E%A4%20FULL-STACK%20SYSTEMS%20ARCHITECT%20%7C%20NEXT.JS%20%26%20CLOUD%20ENGINEER&descAlignY=65&descAlign=50" width="100%" />
 
-  <!-- Hologram / Binary Scan Avatar Presentation -->
-  <table border="0" style="border: none;">
+  <!-- 3D Binary Scan & Hologram Avatar HUD -->
+  <table border="0" style="border: none; background: transparent;">
     <tr>
       <td align="center" style="border: none;">
-        <a href="https://github.com/nitinshah69">
-          <img src="https://avatars.githubusercontent.com/u/108343714?v=4" width="130px" style="border-radius: 50%; border: 3px solid #00f2fe; box-shadow: 0 0 20px #00f2fe, 0 0 40px #4facfe;" alt="Nitin Shah Avatar" />
-        </a>
+        <div style="position: relative; display: inline-block;">
+          <img src="https://avatars.githubusercontent.com/u/108343714?v=4" width="140px" style="border-radius: 50%; border: 3px solid #00f2fe; box-shadow: 0 0 25px #00f2fe, 0 0 50px #38bdf8;" alt="Nitin Shah Avatar" />
+        </div>
         <br/>
-        <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=16&duration=2500&pause=1000&color=00F2FE&center=true&vCenter=true&width=320&lines=%5B+STATUS%3A+ONLINE+%5D;%5B+SYSTEM%3A+ACTIVE+%5D;%5B+SCANNING+TECH+STACK...%5D" alt="Binary Status" />
+        <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=15&duration=2000&pause=800&color=00F2FE&center=true&vCenter=true&width=380&lines=%5B%E2%97%88+NEURAL+LINK%3A+CONNECTED+%5D;%5B%E2%9A%A1+3D+CORE+MATRIX%3A+ENGAGED+%5D;%5B%F0%9F%9B%A1%EF%B8%8F+SECURITY+LEVEL%3A+ROOT+%5D" alt="Binary HUD Status" />
       </td>
     </tr>
   </table>
 
-  <!-- Dynamic Typewriter Animation -->
+  <!-- Dynamic Multi-Line Typewriter -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=%E2%96%B6+Full-Stack+Web+Developer+(Next.js+%7C+React+%7C+Tailwind);%E2%96%B6+Building+High-Performance+Scalable+Architectures;%E2%96%B6+Hackathon+Builder+%26+RECKON+7.0+Competitor;%E2%96%B6+Final-Year+BCA+@+Amity+University%2C+Delhi;%E2%96%B6+Open+for+High-Impact+Tech+Roles+%26+Collaborations!" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=%E2%96%B6+Full-Stack+Architect+(Next.js+14+%7C+React+%7C+Tailwind);%E2%96%B6+Building+High-Performance+Distributed+Web+Apps;%E2%96%B6+Competitive+Hackathon+Builder+(RECKON+7.0);%E2%96%B6+Final-Year+BCA+@+Amity+University%2C+Delhi;%E2%96%B6+Available+for+High-Impact+Software+Engineering+Roles!" alt="Typing SVG" />
   </a>
 
   <br/>
 
-  <!-- Interactive Status & Social Badges -->
+  <!-- 3D Glow Status & Radar Badges -->
   <p align="center">
     <a href="https://linkedin.com/in/nitinshah69"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="mailto:nitinshah@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
     <a href="https://github.com/nitinshah69"><img src="https://img.shields.io/github/followers/nitinshah69?label=Followers&style=for-the-badge&color=238636&logo=github" alt="GitHub Followers" /></a>
-    <img src="https://komarev.com/ghpvc/?username=nitinshah69&label=Radar%20Hits&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=nitinshah69&label=Hologram%20Views&color=00f2fe&style=for-the-badge" alt="Profile Views" />
   </p>
 
 </div>
 
 ---
 
-### 🏆 GitHub 3D Trophies
+### 🌐 3D Isometric Contribution City
+
+<div align="center">
+  <p><b>Real-time Isometric 3D Rendering of Git Commit Density:</b></p>
+  <img src="https://github-profile-3d-contrib.vercel.app/api?username=nitinshah69&theme=tokyonight-duo" width="100%" alt="3D Isometric Contribution Graph" />
+</div>
+
+---
+
+### 🏆 3D Holographic GitHub Trophies
 
 <div align="center">
   <a href="https://github.com/nitinshah69">
@@ -45,54 +54,54 @@
 
 ---
 
-### ⚡ Cyber Matrix // About Me
+### ⚡ Cyber Matrix // Profile Architecture
 
 ```bash
-nitin@amity-os:~$ neofetch --profile
+nitin@amity-core:~$ ./display_matrix_specs.sh
 ```
 
 ```ini
-  ⚡ OS: Ubuntu Linux / Arch Hybrid
-  🎓 University: Amity University, Delhi (BCA Senior)
-  🚀 Specialization: Full-Stack Engineering & Micro-Frontends
-  🛠️ Core Stack: Next.js 14, React, Tailwind CSS, TypeScript, Firebase, PHP
-  💼 Work Experience: Freelance Solutions Engineer @ AambaaLabs
-  🎯 Competitions: RECKON 7.0 Hackathon Builder
-  🌐 Mission: Architecting resilient, lightning-fast digital products
-  📫 Handshake: Open to SDE / Full-Stack Engineer / Frontend Roles
+  [>] CODENAME      : Nitin Shah
+  [>] CAMPUS        : Amity University, Delhi (BCA Final Semester)
+  [>] DOMAIN        : Full-Stack Web Development & Reactive Systems
+  [>] POWER-STACK   : Next.js 14, React, Tailwind CSS, TypeScript, Firebase, PHP
+  [>] RECENT SPRINT : Freelance E-Commerce Infrastructure @ AambaaLabs
+  [>] HACKATHON     : RECKON 7.0 (24-Hour Competitive Sprint)
+  [>] DIRECTIVE     : Engineering scalable, microsecond-latency user experiences
+  [>] STATUS        : 🟢 Ready for Full-Time / SDE / Frontend Opportunities
 ```
 
 ---
 
-### 🧬 Animated Skill Orbit & Matrix
+### 🧬 Animated Skill Orbit & 3D Matrix
 
 <div align="center">
   <!-- Interactive Animated Skill Icons -->
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,html,css,firebase,nodejs,php,mysql,ubuntu,linux,git,github,vscode,postman,vercel&perline=9&theme=dark" alt="Skill Icons Matrix" />
+    <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,html,css,firebase,nodejs,php,mysql,ubuntu,linux,git,github,vscode,postman,vercel,docker&perline=10&theme=dark" alt="Skill Icons Matrix" />
   </a>
 </div>
 
 <br/>
 
 <details open>
-<summary><b>📂 Comprehensive Tech Directory (Click to expand / collapse)</b></summary>
+<summary><b>📂 Detailed Tech & Architecture Matrix (Click to toggle)</b></summary>
 <br/>
 
-| Category | Technologies & Tools |
+| Architectural Layer | Technologies & Frameworks |
 | :--- | :--- |
-| **Frontend Superstructure** | `React.js` `Next.js 14` `TypeScript` `JavaScript (ES6+)` `Tailwind CSS` `HTML5` `CSS3 / SCSS` |
-| **Backend & Persistence** | `Firebase (Auth, Firestore, Storage)` `PHP` `Node.js` `RESTful APIs` `MySQL` |
-| **DevOps, Shell & Environment** | `Ubuntu Linux` `Bash / Shell Scripting` `Git & GitHub` `VS Code` `Postman` `Vercel CI/CD` |
+| **Frontend Engineering** | `Next.js 14 (App Router)` `React.js` `TypeScript` `JavaScript (ES2024)` `Tailwind CSS` `HTML5` `CSS3 / SCSS` |
+| **Backend & Persistence** | `Firebase Suite (Auth, Firestore, Cloud Functions)` `PHP` `Node.js` `RESTful APIs` `MySQL` |
+| **DevOps & Environment** | `Ubuntu Linux` `Bash Scripting` `Git & GitHub Actions` `VS Code` `Postman` `Vercel Platform` `Docker` |
 
 </details>
 
 ---
 
-### 🌌 Holographic GitHub Activity & Radar
+### 🌌 Holographic Activity Radar & Telemetry
 
 <div align="center">
-  <!-- Custom High-Tech Activity Graph -->
+  <!-- Neon Activity Graph Curve -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=nitinshah69&bg_color=0D1117&color=00F2FE&line=38BDF8&point=FFFFFF&area=true&area_color=00F2FE33&hide_border=true" width="100%" alt="Activity Radar Graph" />
 </div>
 
@@ -108,7 +117,7 @@ nitin@amity-os:~$ neofetch --profile
 <br/>
 
 <div align="center">
-  <!-- Streak Stats Card -->
+  <!-- GitHub Streak Flame Stats -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=nitinshah69&theme=tokyonight&hide_border=true" width="98%" alt="GitHub Streak" />
 </div>
 
@@ -120,7 +129,7 @@ nitin@amity-os:~$ neofetch --profile
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">🛍️ AambaaLabs E-Commerce Engine</h3>
-      <p><b>Enterprise Client Dashboard:</b> Architected a real-time freelance management dashboard featuring live telemetry, inventory sync, secure payment workflows, and granular analytics.</p>
+      <p><b>Enterprise Client Dashboard:</b> Commercial-grade store management ecosystem with real-time Firestore database synchronization, inventory analytics, responsive order workflows, and automated reporting.</p>
       <div align="center">
         <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
         <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
@@ -135,7 +144,7 @@ nitin@amity-os:~$ neofetch --profile
     </td>
     <td width="50%" valign="top">
       <h3 align="center">🎓 Amity Capstone Central</h3>
-      <p><b>Institutional Workflow Platform:</b> Engineered a full-stack automation system eliminating manual processes with enterprise role-based access, MySQL schemas, and reactive forms.</p>
+      <p><b>Institutional Workflow Platform:</b> Major university capstone project automating multi-role institutional workflows with secure authentication, relational MySQL schema design, and dynamic interfaces.</p>
       <div align="center">
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
         <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
@@ -152,7 +161,7 @@ nitin@amity-os:~$ neofetch --profile
   <tr>
     <td colspan="2" valign="top">
       <h3 align="center">⚡ RECKON 7.0 Hackathon Sprint Build</h3>
-      <p align="center"><b>24-Hour Innovation Product:</b> Built under high-pressure competitive conditions. Rapid real-time state synchronization, modular reactive UI components, and sub-second Firebase indexing.</p>
+      <p align="center"><b>24-Hour Competitive Sprint:</b> Rapidly engineered under hackathon constraints. Features ultra-responsive state handling, dynamic UI rendering, and sub-second Firebase backend updates.</p>
       <div align="center">
         <img src="https://img.shields.io/badge/Next.js-black?style=flat-square&logo=nextdotjs&logoColor=white" />
         <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
@@ -169,7 +178,7 @@ nitin@amity-os:~$ neofetch --profile
 
 ---
 
-### 🐍 Contribution Graph & Daily Sync
+### 🐍 Contribution Stream & Cyber Quotes
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/nitinshah69/nitinshah69/output/github-contribution-grid-snake.svg" alt="Snake animation" onerror="this.src='https://capsule-render.vercel.app/api?type=rect&color=0:00f2fe,100:4facfe&height=2&width=100%';" width="100%" />
@@ -178,16 +187,16 @@ nitin@amity-os:~$ neofetch --profile
 <br/>
 
 <div align="center">
-  <!-- Dynamic Random Dev Quote -->
+  <!-- Dynamic Realtime Dev Quote -->
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Dev Quote" />
 </div>
 
 ---
 
-### 📡 Initiate Signal & Connect
+### 📡 Establish Neural Connection
 
 <div align="center">
-  <p>Looking for a talented full-stack engineer, hackathon partner, or freelance collaborator? Drop a ping!</p>
+  <p>Ready to build the next groundbreaking platform together? Let's connect!</p>
   
   <a href="https://linkedin.com/in/nitinshah69">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
