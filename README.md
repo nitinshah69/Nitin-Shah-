@@ -1,6 +1,13 @@
 <div align="center">
 
-  <!-- ==================== 01 / TOP HERO BANNER ==================== -->
+  <!-- ==================== 01 / 3D CINEMATIC AI SYSTEMS BANNER ==================== -->
+  <a href="https://github.com/nitinshah69">
+    <img src="./assets/hero-banner.jpg" alt="Nitin Shah — Software Engineer &amp; AI Systems Architect" width="100%" style="border-radius: 10px; border: 1px solid #222222;" />
+  </a>
+
+  <br/><br/>
+
+  <!-- ==================== SIGNATURE ANIMATED HERO BANNER ==================== -->
   <a href="https://github.com/nitinshah69">
     <img src="./assets/github-hero.svg" alt="Nitin Shah — AI / Full-Stack Developer" width="100%" />
   </a>
