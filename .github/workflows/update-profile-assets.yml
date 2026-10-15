@@ -1,10 +1,9 @@
 name: Generate Profile Contribution Snake
 
 on:
-  schedule:
-    # Recurring cron disabled to eliminate minute consumption on schedules.
-    # To re-enable periodic generation, uncomment the cron line below:
-    # - cron: "0 0 * * *"
+  # Schedule disabled to prevent automatic minute usage.
+  # schedule:
+  #   - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
