@@ -2,12 +2,10 @@ name: Generate Profile Contribution Snake
 
 on:
   schedule:
-    # Run automatically every 12 hours
-    - cron: "0 */12 * * *"
+    # Recurring cron disabled to eliminate minute consumption on schedules.
+    # To re-enable periodic generation, uncomment the cron line below:
+    # - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   build:
